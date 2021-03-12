@@ -1,0 +1,1 @@
+$(document).ready(function(){$('#art').poptrox({caption:function($a){return $a.next('h3').text();},overlayColor:'#2c2c2c',overlayOpacity:0.85,popupCloserText:'',popupLoaderText:'',selector:'.work-item a.image',usePopupCaption:true,usePopupDefaultStyling:false,usePopupEasyClose:false,usePopupNav:true,windowMargin:(skel.breakpoint('small').active?0:50)});});
