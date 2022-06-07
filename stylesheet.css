@@ -1,0 +1,103 @@
+body {
+  margin: 0;
+  color: #DED7C7;
+  font-family: 'Open Sans', sans-serif;
+  background-color: rgba(15, 15, 15, 0.9);
+  line-height: 1.5;
+}
+
+a {
+  text-decoration: underline;
+  color: hsla(43, 60%, 68%, .8);
+}
+a:visited {
+  color: hsla(43, 60%, 68%, .1);
+}
+a:hover {
+  color: hsl(220,60%,70%);
+}
+a:active {
+  color: hsl(220,60%,50%);
+}
+
+#authors a { 
+  text-decoration: none;   
+  color: #DED7C7;
+  font-size: 1em;
+}
+
+
+#ack a { 
+  text-decoration: none;   
+  color:rgba(255, 255, 255, 0.45);
+  font-size: 1em;
+}
+
+b, strong,
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+  color: #DEC27B;
+}
+
+navbar {
+  font-weight: 800;
+  color: #e8dbbe;
+}
+
+heading {
+  font-size: 2em;
+  color: #DEC27B;
+}
+
+papertitle {
+  font-size: 1.1em;
+  color: #dec37c;
+  font-weight: 800;
+  display: inline-block;
+  line-height: 1.5;
+}
+
+.one {
+  width: 180px;
+  height: 180px;
+  position: relative;
+}
+
+.two {
+  width: 180px;
+  height: 180px;
+  position: absolute;
+  transition: opacity .2s ease-in-out;
+  -moz-transition: opacity .2s ease-in-out;
+  -webkit-transition: opacity .2s ease-in-out;
+}
+
+.fade {
+  transition: opacity .2s ease-in-out;
+  -moz-transition: opacity .2s ease-in-out;
+  -webkit-transition: opacity .2s ease-in-out;
+}
+
+.aside {
+	text-align: center;
+	font-weight: 300;
+	color: #DEC27B;
+}
+
+.aside-title {
+	font-weight: 600;
+	font-size: 2em;
+	letter-spacing: 0.7px;
+	margin: 0.5em 0 0.5em 0;
+}
+
+.aside-avatar {
+  border-radius: 60%;
+  vertical-align: top;
+}
+
+.aside-description {
+	margin: 0;
+	line-height: 1.4;
+	color: #b3964d;
+}

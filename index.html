@@ -1,47 +1,371 @@
-<!DOCTYPE html><html><head><title>Brandon Y. Feng | University of Maryland</title><meta charset=utf-8><meta name=description lang=en content="Personal Site of Brandon Y. Feng, a Ph.D. Candidate in Computer Science at the University of Maryland who is interested in machine learning, computer graphics, computational imaging, and AR/VR."><meta name=description lang=cn content><meta name=keywords content="Brandon Feng, Yushan Feng, Brandon Yushan Feng, Brandon Y. Feng, UMD, CS, UMIACS, GVIL, University of Maryland, Computer Science."><meta name=author content="Brandon Y. Feng"><meta property=og:title content="Brandon Y. Feng"><meta property=og:image content=./photos/headshot.jpg><meta property=og:description content="Personal Site."><meta name=viewport content="width=device-width, initial-scale=1"><link rel=stylesheet href=./css/main.css><link rel=stylesheet href=./css/popup.css></head>
-<body id=top><header id=header><a href=photos/headshot.jpg &quot; class="image avatar" style=width:228px;height:228px;align-content:center;margin-top:-2em;margin-bottom:2em;>
-	<img border=0 src=photos/headshot.jpg></a>
-	<div>
-	<span style="font-size:160%; line-height:2;color:#a2a2a2;"> Brandon Y. Feng</span><br><span style="font-size:110%; line-height:1.5;color:#a2a2a2;">Ph.D. Candidate<br>Department of Computer Science<br>University of Maryland, College Park</span></header></body>
-	</div>
+<!DOCTYPE HTML>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+  <title>Brandon Y. Feng | University of Maryland</title>
+  
+  <meta name="author" content="Brandon Y. Feng">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name=keywords content="Brandon Feng, Yushan Feng, Brandon Yushan Feng, Brandon Y. Feng, UMD, CS, UMIACS, GVIL, University of Maryland, Computer Science.">
+  <meta property=og:title content="Brandon Y. Feng">
+  <meta property=og:image content=./images/headshot.jpg>
+  <meta property=og:description content="Brandon Y. Feng Personal Site.">
+	<link rel="dns-prefetch" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600">
+  <link rel="" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+  <link rel="icon" href="images/battery-charging.svg" type="image/svg+xml" />
+</head>
+
+<body>
+  <table style="width:100%;max-width:1024px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+    <tr style="padding:0px">
+      <td style="padding:0px">
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          <tr style="padding:0px">
+            <td style="padding:6%;width:35%;max-width:35%">
+              <a href="images/headshot.jpg"><img class="aside-avatar" style="width:100%;max-width:100%" alt="profile photo" src="images/headshot.jpg" class="hoverZoomLink"></a>
+            </td>
+            <td style="padding:2.5%;width:63%;vertical-align:middle">
+              <h1 class="aside-title">Brandon Y. Feng</h1>
+              </div>
+              <p> I am a Ph.D. Candidate in Computer Science at the University of Maryland advised by <a href=https://en.wikipedia.org/wiki/Amitabh_Varshney >Prof. Amitabh Varshney</a>.
+              My research focus lies at the intersection of graphics, vision, and imaging. I develop machine learning algorithms for image and 3D data processing, with applications ranging from mixed reality to natural science.
+              My goal is to enhance our ability to represent and perceive information about our world, facilitating new creation with positive societal impact.
+              </p>
+
+              <h3 style="text-align:center">
+                <a href="./index.html"><navbar>Research</navbar></a> &nbsp|&nbsp
+                <a href="./bio.html">Bio</a> &nbsp|&nbsp
+                <a href="https://scholar.google.com/citations?user=VCeYRsYAAAAJ&hl=en">Google Scholar</a> &nbsp|&nbsp
+                <a href="mailto:yfeng97@umd.edu">Email</a>
+              </h3>
+            </td>
+          </tr>
+        </tbody></table>
+
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            <tr>
+            <td style="padding:20px;width:100%;vertical-align:middle">
+              <heading>Publications</heading>
+            </td>
+          </tr>
+        </tbody></table>
+
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          <tr onmouseout="prif_stop()" onmouseover="prif_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id="prif_vid">
+                    <img src='videos/prif.gif' width="180">
+                </div>  
+                <div class="two" id='prif_image'>
+                  <img src='images/prif.jpg' width="180">
+                </div>  
+              </div>
+              <script type="text/javascript">
+                function prif_start() {
+                  document.getElementById('prif_vid').style.opacity = "1";
+                  document.getElementById('prif_image').style.opacity = "0";
+
+                }
+
+                function prif_stop() {
+                  document.getElementById('prif_vid').style.opacity = "0";
+                  document.getElementById('prif_image').style.opacity = "1";
+                }
+                prif_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href=".">
+                <papertitle>Primary Ray-based Implicit Function</papertitle>
+              </a>
+              <br>
+              <div id="authors">
+                <strong>Brandon Y. Feng</strong>, 
+                <a href="https://www.zhangyinda.com/">Yinda Zhang</a>,
+                <a href="https://scholar.google.com/citations?user=9uxs6G4AAAAJ&hl=en">Danhang Tang</a>,
+                <a href="https://ruofeidu.com/">Ruofei Du</a>,
+                <a href="https://en.wikipedia.org/wiki/Amitabh_Varshney">Amitabh Varshney</a>
+              </div>
+							<em>Preprint</em>, 2022
+              <br>
+              <a href=".">paper (tba)</a>
+              <p>Efficient implicit shape representation.</p>
+            </td>
+          </tr> 
+
+          <tr onmouseout="turbu_stop()" onmouseover="turbu_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='turbu_vid'>
+                  <img src="images/turbu1.jpg" width="180">
+                  </div>
+                  <div class="two" id='turbu_image'>
+                    <img src='images/turbu0.jpg' width="180">
+                  </div>  
+                </div>
+              <script type="text/javascript">
+                function turbu_start() {
+                  document.getElementById('turbu_vid').style.opacity = "1";
+                  document.getElementById('turbu_image').style.opacity = "0";
+
+                }
+
+                function turbu_stop() {
+                  document.getElementById('turbu_vid').style.opacity = "0";
+                  document.getElementById('turbu_image').style.opacity = "1";
+                }
+                turbu_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://arxiv.org/abs/2203.06764">
+                <papertitle>TurbuGAN: An Adversarial Learning Approach to Spatially-Varying Multiframe Blind Deconvolution with Applications to Imaging Through Turbulence</papertitle>
+              </a>
+              <br>
+              <div id="authors">
+                <strong>Brandon Y. Feng</strong>*, <a href="https://scholar.google.com/citations?user=2x41vmkAAAAJ&hl=en">Mingyang Xie*</a>,
+                <a href="http://www.cs.umd.edu/~metzler/">Christopher A. Metzler</a>
+              </div>
+							<em>Preprint</em>, 2022
+              <br>
+              <a href="https://arxiv.org/abs/2203.06764">paper</a>
+              <p>Training GAN with blurry images from the same scene distorted by changing turbulence. Recovers a sharp image without estimating the blur kernels or acquiring a large labelled dataset.</p>
+            </td>
+          </tr> 
+
+
+          <tr onmouseout="afbench_stop()" onmouseover="afbench_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='afbench_vid'>
+                <img src="images/protein.gif" width="180">
+                </div>
+                <div class="two" id='afbench_image'>
+                  <img src='images/protein.jpg' width="180">
+                </div>  
+              </div>
+              <script type="text/javascript">
+                function afbench_start() {
+                  document.getElementById('afbench_vid').style.opacity = "1";
+                  document.getElementById('afbench_image').style.opacity = "0";
+
+                }
+
+                function afbench_stop() {
+                  document.getElementById('afbench_vid').style.opacity = "0";
+                  document.getElementById('afbench_image').style.opacity = "1";
+                }
+                afbench_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://www.biorxiv.org/content/10.1101/2021.10.23.465575">
+                <papertitle>Benchmarking AlphaFold for Protein Complex Modeling Reveals Accuracy Determinants</papertitle>
+              </a>
+              <br>
+              <div id="authors">
+                <a href="https://scholar.google.com/citations?user=ROPT34wAAAAJ&hl=en/">Rui Yin</a>,
+                <strong>Brandon Y. Feng</strong>, 
+                <a href="https://en.wikipedia.org/wiki/Amitabh_Varshney">Amitabh Varshney</a>,
+                <a href="https://scholar.google.com/citations?user=Y-VJVpgAAAAJ&hl=en/">Brian G. Pierce</a>,
+              </div>
+							<em>Protein Science</em>, 2022
+              <br>
+              <a href="https://www.biorxiv.org/content/10.1101/2021.10.23.465575">paper</a>
+              <p>Interesting findings from evaluating AlphaFold2 on protein-protein docking, highlighting areas for future development using deep learning methods.</p>
+            </td>
+          </tr> 
+
+          <tr onmouseout="signet_stop()" onmouseover="signet_start()"  bgcolor="#431d1d">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='signet_vid'><video  width=100% height=100% muted autoplay loop>
+                <source src="videos/signet.mp4">
+                </video></div>
+                <div class="two" id='signet_image'>
+                  <img src='images/signet.png' width="180">
+                </div>  
+              </div>
+              <script type="text/javascript">
+                function signet_start() {
+                  document.getElementById('signet_vid').style.opacity = "1";
+                  document.getElementById('signet_image').style.opacity = "0";
+
+                }
+
+                function signet_stop() {
+                  document.getElementById('signet_vid').style.opacity = "0";
+                  document.getElementById('signet_image').style.opacity = "1";
+                }
+                signet_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://augmentariumlab.github.io/SIGNET">
+                <papertitle>SIGNET: Efficient Neural Representations For Light Fields</papertitle>
+              </a>
+              <br>
+              <div id="authors">
+                <strong>Brandon Y. Feng</strong>,
+                <a href="https://en.wikipedia.org/wiki/Amitabh_Varshney">Amitabh Varshney</a>
+              </div>
+							<em>International Conference on Computer Vision (ICCV)</em>, 2021 &nbsp <strong>(Oral Presentation)</strong>
+              <br>
+              <a href="https://augmentariumlab.github.io/SIGNET">project page</a>
+              |
+              <a href="./papers/SIGNET.pdf">paper</a>
+              |
+              <a href="https://youtu.be/sCJnON15mSk">video</a>
+							|
+              <a href="https://github.com/AugmentariumLab/SIGNET">code</a>
+              <p>Remarkable compression rates by representing light fields as neural network weights. Simple and compact formulation also supports angular interpolation to generate novel viewpoints.</p>
+            </td>
+          </tr> 
+
+          <tr onmouseout="gazechat_stop()" onmouseover="gazechat_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='gazechat_image'><video  width=100% height=100% muted autoplay loop>
+                <source src="videos/GazeChatVid.mp4">
+                Your browser does not support the video tag.
+                </video></div>
+                <img src='images/GazeChat.png' width="180">
+              </div>
+              <script type="text/javascript">
+                function gazechat_start() {
+                  document.getElementById('gazechat_image').style.opacity = "1";
+                }
+
+                function gazechat_stop() {
+                  document.getElementById('gazechat_image').style.opacity = "0";
+                }
+                gazechat_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://ruofeidu.com/projects/gazechat/">
+              <papertitle>GazeChat: Enhancing Virtual Conferences with Gaze-aware 3D Photos</papertitle>
+              </a>
+              <br>
+              <div id="authors">
+                <a href="https://zhenyihe.wordpress.com/">Zhenyi He</a>,
+                Keru Wang,
+                <strong>Brandon Y. Feng</strong>,
+                <a href="https://ruofeidu.com/">Ruofei Du</a>,
+                <a href="https://cs.nyu.edu/~perlin/">Ken Perlin</a>
+              </div>
+              <em>ACM Symposium on User Interface Software and Technology (UIST)</em>, 2021
+              <br>
+              <a href="https://ruofeidu.com/projects/gazechat/">project page</a>
+              |
+              <a href="https://ruofeidu.com/papers/He_GazeChat-EnhancingVirtualConferencesWithGaze-Aware3DPhotos_UIST2021.pdf">paper</a>
+              |
+              <a href="https://www.youtube.com/watch?v=6cyPh9jM6vQ">video</a>
+              <p>Visualizing "who's looking at who" from static profile images as people always turn off their videos. Synthesized eye gazes are obtained by leveraging a general-purpose neural network. </p>
+          </td>
+        </tr>
+
+        <tr onmouseout="quatdeep_stop()" onmouseover="quatdeep_start()">
+          <td style="padding:20px;width:25%;vertical-align:middle">
+            <div class="one">
+              <div class="two" id='quatdeep_img2'>
+              <img src="images/2020Deep2.png" width="180">
+              </div>
+              <div class="two" id='quatdeep_img'>
+                <img src='images/2020Deep.png' width="180">
+              </div>  
+            </div>
+            <script type="text/javascript">
+              function quatdeep_start() {
+                document.getElementById('quatdeep_img2').style.opacity = "1";
+                document.getElementById('quatdeep_img').style.opacity = "0";
+
+              }
+
+              function quatdeep_stop() {
+                document.getElementById('quatdeep_img2').style.opacity = "0";
+                document.getElementById('quatdeep_img').style.opacity = "1";
+              }
+              quatdeep_stop()
+            </script>
+          </td>
+          <td style="padding:20px;width:75%;vertical-align:middle">
+            <a href="./papers/Feng_DeepDepthEstimationOn360-DegreeImagesWithADoubleQuaternionLoss_2020.pdf">
+              <papertitle>Deep Depth Estimation on 360-Degree Images With a Double Quaternion Loss</papertitle>
+            </a>
+            <br>
+            <div id="authors">
+            <strong>Brandon Y. Feng</strong>,
+            Wangjue Yao, Zheyuan Liu,
+            <a href="https://en.wikipedia.org/wiki/Amitabh_Varshney">Amitabh Varshney</a>
+            </div>
+            <em>International Conference on 3D Vision (3DV)</em>, 2020
+            <br>
+            <a href="./papers/Feng_DeepDepthEstimationOn360-DegreeImagesWithADoubleQuaternionLoss_2020.pdf">paper</a>
+            <p>Training neural networks for 360&deg monocular depth and normal estimation. Proposed a novel approach of combining depth and normal as a double quaternion during loss computation.</p>
+          </td>
+        </tr>
+
+        <tr onmouseout="mri_stop()" onmouseover="mri_start()">
+          <td style="padding:20px;width:25%;vertical-align:middle">
+            <div class="one">
+              <div class="two" id='mri_img2'>
+              <img src="images/MRI1.png" width="180">
+              </div>
+              <div class="two" id='mri_img'>
+                <img src='images/MRI2.png' width="180">
+              </div>  
+            </div>
+            <script type="text/javascript">
+              function mri_start() {
+                document.getElementById('mri_img2').style.opacity = "1";
+                document.getElementById('mri_img').style.opacity = "0";
+
+              }
+
+              function mri_stop() {
+                document.getElementById('mri_img2').style.opacity = "0";
+                document.getElementById('mri_img').style.opacity = "1";
+              }
+              mri_stop()
+            </script>
+          </td>
+          <td style="padding:20px;width:75%;vertical-align:middle">
+            <a href="https://arxiv.org/abs/1811.07491">
+              <papertitle>A Self-Adaptive Network for Multiple Sclerosis Lesion Segmentation From Multi-Contrast MRI With Various Imaging Sequences</papertitle>
+            </a>
+            <br>
+            <div id="authors">
+              <strong>Brandon Y. Feng</strong>,
+              Huitong Pan, Craig Meyer, Xue Feng
+            </div>
+            <em>IEEE International Symposium on Biomedical Imaging (ISBI)</em>, 2019
+            <br>
+            <a href="https://arxiv.org/abs/1811.07491">paper</a>
+            <p>Neural networks with multimodal input disproportionately rely on certain modality while ignoring the rest. Developed a new strategy to overcome such bias and adapt to missing modalities.</p>
+          </td>
+        </tr>
+
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          <tr>
+          <td style="padding:20px;width:100%;vertical-align:middle">
+            <div id="ack">
+            <p style="font-size:1em; color:rgba(255, 255, 255, 0.45);">This page is modified based on <a href="https://jonbarron.info/">Jon Barron's website</a></p>
+            </div>
+          </td>
+        </tr>
+      </tbody></table>
+
+    </tbody></table>
+
+    </tbody></table>
+
+    </td>
+    </tr>
+
+  </table>
+
+</body>
 </html>
-<div id=main>
-
-    <section id=intro><header class=major><h2 style=font-size:160%;> Brandon Y. Feng </h2></header>
-    <p style=font-size:110%;> I am a Ph.D. Candidate in Computer Science at the University of Maryland, College Park. I am a member of the UMD <a href=http://www.cs.umd.edu/gvil>Graphics and Visual Informatics Laboratory</a> advised by <a href=http://www.cs.umd.edu/~varshney/ >Prof. Amitabh Varshney</a>. I went to college at the University of Virginia and received my B.A. in 2018 and M.S. in 2019. </p>
-    <p style=font-size:110%;> My general interests lie at the intersection of deep learning, computer graphics, and VR/AR. I am particularly interested in image/video processing for immersive displays and 3D vision for mixed/extended reality applications. I love learning about applications of machine learning to problems involving capturing and reconstructing 3D structures of any kind. </p>
-    <p class="prior hidden" style="display: none;"> {{prior}} </p>
-    <ul class=actions style="display: flex;justify-content:center;"> </ul></section>
-
-    <section id=publications><h2>Recent Publications</h2>
-    <div class=row>
-        <article class="6u 12u$(xsmall) work-item">
-            <a href=../papers/SIGNET.pdf class="image fit thumb">
-                <img alt="SIGNET Teaser Image." src=./teasers/gegenbauer.gif>
-            </a>
-            <h3><a href=../papers/SIGNET.pdf>SIGNET: Efficient Neural Representations For Light Fields</a></h3>
-            <p><p><a href=https://brandonyfeng.github.io>Brandon Feng</a> and <a href=http://cs.umd.edu/~varshney>Amitabh Varshney</a></p></p>
-            <p><i> International Conference on Computer Vision (ICCV), 2021. </i></p>
-            <p class=links><a href=./papers/SIGNET.pdf title="SIGNET: Efficient Neural Representations For Light Fields">PDF</a> | <a href=https://augmentariumlab.github.io/SIGNET/ title="Project Website">Project Website</a> | <a href=https://augmentariumlab.github.io/SIGNET/ title="Oral">Oral</a></p>
-        </article>
-    
-        <article class="6u 12u$(xsmall) work-item">
-            <a href=. class="image fit thumb">
-                <img alt="GazeChat Teaser Image." src=https://ruofeidu.com/gifs/He2021GazeChat.gif>
-            </a>
-            <h3><a href=https://ruofeidu.com/papers/He_GazeChat-EnhancingVirtualConferencesWithGaze-Aware3DPhotos_UIST2021.pdf>GazeChat: Enhancing Virtual Conferences with Gaze-aware 3D Photos</a></h3>
-            <p><p><a href=https://zhenyihe.wordpress.com>Zhenyi He</a>, Keru Wang, <a href=https://brandonyfeng.github.io>Brandon Feng</a>, <a href=https://ruofeidu.com>Ruofei Du</a> and <a href=https://mrl.cs.nyu.edu/~perlin> Ken Perlin</a></p></p>
-            <p><i> ACM Symposium on User Interface Software and Technology (UIST), 2021. </i></p>
-            <p class=links><a href=https://ruofeidu.com/papers/He_GazeChat-EnhancingVirtualConferencesWithGaze-Aware3DPhotos_UIST2021.pdf title="GazeChat: Enhancing Virtual Conferences with Gaze-aware 3D Photos">PDF</a> | <a href=https://youtu.be/J0fpy3WJMx8>Video</a> </p>
-        </article>
-    </div>
-    <a href="https://scholar.google.com/citations?user=VCeYRsYAAAAJ&hl=en" class=button>Google Scholar Page</a> <a href=./papers/index.html class=button>Full Publication List</a>
-    </section>
-
-<section id=education><h2>Education</h2>
-	<div>
-	<span style="font-size:110%;color:#787878;">University of Maryland, College Park</span><br><span style="font-size:110%;color:#a2a2a2;"><i>Ph.D. in Computer Science</i>&emsp;&emsp;&emsp;&emsp;&ensp;&nbsp; August 2019 - Present<br></span>
-	<span style="font-size:110%;color:#787878;">University of Virginia</span><br><span style="font-size:110%;color:#a2a2a2;"><i>M.S. in Statistics</i>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;&nbsp; August 2018 - May 2019<br></span><span style="font-size:110%;color:#a2a2a2;"><i>B.A. in Computer Science, Statistics</i>&emsp; August 2015 - May 2018<br></span>
-	</div>
-</section>
-</div><script src=./js/jquery.min.js></script><script src=./js/jquery.poptrox.min.js></script><script src=./js/skel.min.js></script><script src=./js/strata.js></script><script src=./js/popup.min.js></script><script src=./js/lightbox.js></script><script src=/js/duweb.js></script></div></div><footer id=footer><ul class=icons><li><a href="https://scholar.google.com/citations?user=VCeYRsYAAAAJ&hl=en" class="icon fa-graduation-cap" target=_blank><span class=label>Google Scholar</span></a></li><li><a href=https://www.linkedin.com/in/brandon-yushan-feng-478aa8b5/ class="icon fa-linkedin" target=_blank><span class=label>LinkedIn</span></a></li><li><a href=https://twitter.com/realbrandonfeng class="icon fa-twitter" target=_blank><span class=label>Twitter</span></a></li><li><a href=mailto:yfeng97@umd.edu class="icon fa-envelope" target=_blank><span class=label>Email</span></a></li></ul><ul class=copyright><li>&copy; Brandon Y. Feng (built on <a href=https://github.com/ruofeidu/DuWebKit>DuWebKit</a>)</li><li>2022</li></ul></footer></body></html>
