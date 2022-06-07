@@ -68,15 +68,19 @@ heading {
   line-height: 1.5;
 }
 
+#authors div {
+  line-height: 1.5;
+}
+
 .one {
-  width: 180px;
-  height: 180px;
+  width: 165px;
+  height: 165px;
   position: relative;
 }
 
 .two {
-  width: 180px;
-  height: 180px;
+  width: 165px;
+  height: 165px;
   position: absolute;
   transition: opacity .2s ease-in-out;
   -moz-transition: opacity .2s ease-in-out;
