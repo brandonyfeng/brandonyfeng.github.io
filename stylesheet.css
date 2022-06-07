@@ -23,19 +23,19 @@ a:active {
 #authors a { 
   text-decoration: none;   
   color: #DED7C7;
-  font-size: 1em;
+  font-size: 0.9em;
 }
 
 #ack a { 
   text-decoration: none;   
   color:rgba(255, 255, 255, 0.45);
-  font-size: 1em;
+  font-size: 0.9em;
 }
 
 #venue a { 
   text-decoration: none;   
   color: #DED7C7;
-  font-size: 1em;
+  font-size: 0.9em;
 }
 
 b, strong,
@@ -44,34 +44,38 @@ h1, h2, h3, h4, h5, h6 {
   color: #DEC27B;
 }
 
+a, p, strong{
+  font-size: 0.9em;
+}
+
 navbar {
   font-weight: 800;
   color: #e8dbbe;
 }
 
 heading {
-  font-size: 2em;
+  font-size: 1.5em;
   color: #DEC27B;
 }
 
-papertitle {
+#papertitle a {
   font-size: 1.0em;
-  color: #dec37c;
-  font-weight: 600;
-  display: inline-block;
-  line-height: 1.2;
   text-decoration: none;
+  color: #dec37c;
+  font-weight: 800;
+  display: inline-block;
+  line-height: 1.0;
 }
 
 .one {
-  width: 160px;
-  height: 160px;
+  width: 180px;
+  height: 180px;
   position: relative;
 }
 
 .two {
-  width: 160px;
-  height: 160px;
+  width: 180px;
+  height: 180px;
   position: absolute;
   transition: opacity .2s ease-in-out;
   -moz-transition: opacity .2s ease-in-out;
@@ -92,13 +96,13 @@ papertitle {
 
 .aside-title {
 	font-weight: 600;
-	font-size: 2em;
+	font-size: 1.5em;
 	letter-spacing: 0.7px;
 	margin: 0.5em 0 0.5em 0;
 }
 
 .aside-avatar {
-  border-radius: 60%;
+  border-radius: 50%;
   vertical-align: top;
 }
 
