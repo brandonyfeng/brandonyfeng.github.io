@@ -8,8 +8,9 @@ body {
 
 a {
   text-decoration: underline;
-  color: hsla(43, 60%, 68%, .8);
+  color: rgba(220, 191, 120, 0.9);
 }
+
 a:visited {
   color: hsla(43, 60%, 68%, .1);
 }
@@ -55,16 +56,16 @@ navbar {
 
 heading {
   font-size: 1.5em;
-  color: #DEC27B;
+  color: #e9c260;
 }
 
 #papertitle a {
   font-size: 1.0em;
   text-decoration: none;
-  color: #dec37c;
-  font-weight: 800;
+  color: #e9c260;
+  font-weight: 700;
   display: inline-block;
-  line-height: 1.0;
+  line-height: 1.5;
 }
 
 .one {
@@ -99,15 +100,10 @@ heading {
 	font-size: 1.5em;
 	letter-spacing: 0.7px;
 	margin: 0.5em 0 0.5em 0;
+  color: #e9c260;
 }
 
 .aside-avatar {
   border-radius: 50%;
   vertical-align: top;
-}
-
-.aside-description {
-	margin: 0;
-	line-height: 1.4;
-	color: #b3964d;
 }
