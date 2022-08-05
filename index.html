@@ -1,384 +1,170 @@
-<!DOCTYPE HTML>
-<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+---
+layout: null
+---
+<!DOCTYPE html>
+<html lang="en-US">
 
-  <title>Brandon Y. Feng | University of Maryland</title>
-  
-  <meta name="author" content="Brandon Y. Feng">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name=keywords content="Brandon Feng, Yushan Feng, Brandon Yushan Feng, Brandon Y. Feng, UMD, CS, UMIACS, GVIL, University of Maryland, Computer Science.">
-  <meta property=og:title content="Brandon Y. Feng">
-  <meta property=og:image content=./images/headshot.jpg>
-  <meta property=og:description content="Brandon Y. Feng Personal Site.">
-	<link rel="dns-prefetch" href="https://fonts.googleapis.com">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600">
-  <link rel="" href="https://fonts.googleapis.com">
-  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+<head>
+  <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <title>{{ site.name }}</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Google+Sans:wght@700&family=Noto+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="{{ '/css/fontawesome.all.min.css' | relative_url }}" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css" rel="stylesheet">
+  <link href="{{ '/css/bulma.min.css' | relative_url }}" rel="stylesheet">
+  <link href="{{ '/css/index.css' | relative_url }}" rel="stylesheet">
   <link rel="icon" href="images/battery-charging.svg" type="image/svg+xml" />
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script defer src="{{ '/js/fontawesome.all.min.js' | relative_url }}"></script>
+  <script src="{{ '/js/index.js' | relative_url }}"></script>
 </head>
 
 <body>
-  <table style="width:100%;max-width:900px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-    <tr style="padding:0px">
-      <td style="padding:0px">
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-          <tr style="padding:0px">
-            <td style="padding:2%;width:25%;max-width:25%">
-              <a href="images/headshot.jpg"><img class="aside-avatar" style="width:75%;max-width:75%" alt="profile photo" src="images/headshot.jpg"></a>
-            </td>
-            <td style="padding:2%;width:65%;vertical-align:middle">
-              <h1 class="aside-title">Brandon Y. Feng</h1>
-              </div>
-              <p> I am a Ph.D. Candidate in Computer Science at the University of Maryland advised by <a href=https://en.wikipedia.org/wiki/Amitabh_Varshney >Prof. Amitabh Varshney</a>.
-              My research focus lies at the intersection of graphics, vision, and imaging. I develop machine learning algorithms for image and 3D data processing, with applications ranging from mixed reality to natural science.
-              My goal is to enhance our ability to represent and perceive information about our world, facilitating new creation with positive societal impact.
-              </p>
 
-              <h3 style="text-align:center">
-                <a href="./index.html"><navbar>Research</navbar></a> &nbsp|&nbsp
-                <a href="./bio.html">Bio</a> &nbsp|&nbsp
-                <a href="https://scholar.google.com/citations?user=VCeYRsYAAAAJ&hl=en">Google Scholar</a> &nbsp|&nbsp
-                <a href="mailto:yfeng97@umd.edu">Email</a>
-              </h3>
-            </td>
-          </tr>
-        </tbody></table>
+  <section class="hero">
+    <div class="hero-body container is-max-desktop">
+      <div class="columns is-vcentered">
 
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-            <tr>
-            <td style="padding:2%;width:100%;vertical-align:middle">
-              <heading>Publications</heading>
-            </td>
-          </tr>
-        </tbody></table>
+        <div class="column is-4">
+          <div class="portrait">
+            <img src="{{ '/images/headshot.jpg' | relative_url }}" />
+          </div>
+        </div>
 
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-          <tr onmouseout="prif_stop()" onmouseover="prif_start()">
-            <td style="padding:1.5%;width:25%;vertical-align:middle">
-              <div class="one">
-                <div class="two" id="prif_vid">
-                    <img src='videos/prif.gif' width="165">
-                </div>  
-                <div class="two" id='prif_image'>
-                  <img src='images/prif.jpg' width="165">
-                </div>  
-              </div>
-              <script type="text/javascript">
-                function prif_start() {
-                  document.getElementById('prif_vid').style.opacity = "1";
-                  document.getElementById('prif_image').style.opacity = "0";
+        <div class="column">
+          <h1 class="title">
+            <b>{{ site.name }}</b>
+          </h1>
+          <div class="content has-text-justified">
+            {{ site.description | markdownify }}
+            <div class="buttons">
 
-                }
-
-                function prif_stop() {
-                  document.getElementById('prif_vid').style.opacity = "0";
-                  document.getElementById('prif_image').style.opacity = "1";
-                }
-                prif_stop()
-              </script>
-            </td>
-            <td style="padding:2%;width:65%;vertical-align:middle">
-              <div id="papertitle">
-                <a href=".">
-                  Primary Ray-based Implicit Function
-                </a>
-              </div>
-              <div id="authors">
-                <strong>Brandon Y. Feng</strong>, 
-                <a href="https://www.zhangyinda.com/">Yinda Zhang</a>,
-                <a href="https://scholar.google.com/citations?user=9uxs6G4AAAAJ&hl=en">Danhang Tang</a>,
-                <a href="https://ruofeidu.com/">Ruofei Du</a>,
-                <a href="https://en.wikipedia.org/wiki/Amitabh_Varshney">Amitabh Varshney</a>
-              </div>
-              <div id="venue">
-							  <em><a href="https://eccv2022.ecva.net/">European Conference on Computer Vision (ECCV)</a></em>, 2022
-              </div>
-              <a href=".">paper (tba)</a>
-              <p>Efficient implicit shape representation.</p>
-            </td>
-          </tr> 
-
-          <tr onmouseout="turbu_stop()" onmouseover="turbu_start()">
-            <td style="padding:1.5%;width:25%;max-width:25%;vertical-align:middle">
-              <div class="one">
-                <div class="two" id='turbu_vid'>
-                  <img src="images/turbu1.jpg"  width="165">
-                  </div>
-                  <div class="two" id='turbu_image'>
-                    <img src='images/turbu0.jpg'  width="165">
-                  </div>  
-                </div>
-              <script type="text/javascript">
-                function turbu_start() {
-                  document.getElementById('turbu_vid').style.opacity = "1";
-                  document.getElementById('turbu_image').style.opacity = "0";
-
-                }
-
-                function turbu_stop() {
-                  document.getElementById('turbu_vid').style.opacity = "0";
-                  document.getElementById('turbu_image').style.opacity = "1";
-                }
-                turbu_stop()
-              </script>
-            </td>
-            <td style="padding:2%;width:65%;vertical-align:middle">
-              <div id="papertitle">
-                <a href="https://arxiv.org/abs/2203.06764">
-                  TurbuGAN: An Adversarial Learning Approach to Spatially-Varying Multiframe Blind Deconvolution with Applications to Imaging Through Turbulence
-                </a>
-              </div>
-              <div id="authors">
-                <strong>Brandon Y. Feng</strong>*, <a href="https://scholar.google.com/citations?user=2x41vmkAAAAJ&hl=en">Mingyang Xie*</a>,
-                <a href="http://www.cs.umd.edu/~metzler/">Christopher A. Metzler</a>
-              </div>
-              <div id="venue">
-                <em>Preprint</em>, 2022
-              </div>
-              <a href="https://arxiv.org/abs/2203.06764">paper</a>
-              <p>Training GAN with blurry images from the same scene distorted by changing turbulence. Recovers a sharp image without estimating the blur kernels or acquiring a large labelled dataset.</p>
-            </td>
-          </tr> 
-
-
-          <tr onmouseout="afbench_stop()" onmouseover="afbench_start()">
-            <td style="padding:1.5%;width:25%;vertical-align:middle">
-              <div class="one">
-                <div class="two" id='afbench_vid'>
-                <img src="images/protein.gif"  width="165">
-                </div>
-                <div class="two" id='afbench_image'>
-                  <img src='images/protein.jpg'  width="165">
-                </div>  
-              </div>
-              <script type="text/javascript">
-                function afbench_start() {
-                  document.getElementById('afbench_vid').style.opacity = "1";
-                  document.getElementById('afbench_image').style.opacity = "0";
-
-                }
-
-                function afbench_stop() {
-                  document.getElementById('afbench_vid').style.opacity = "0";
-                  document.getElementById('afbench_image').style.opacity = "1";
-                }
-                afbench_stop()
-              </script>
-            </td>
-            <td style="padding:2%;width:65%;vertical-align:middle">
-              <div id="papertitle">
-                <a href="https://www.biorxiv.org/content/10.1101/2021.10.23.465575">
-                  Benchmarking AlphaFold for Protein Complex Modeling Reveals Accuracy Determinants
-                </a>  
-              </div>
-              <div id="authors">
-                <a href="https://scholar.google.com/citations?user=ROPT34wAAAAJ&hl=en/">Rui Yin</a>,
-                <strong>Brandon Y. Feng</strong>, 
-                <a href="https://en.wikipedia.org/wiki/Amitabh_Varshney">Amitabh Varshney</a>,
-                <a href="https://scholar.google.com/citations?user=Y-VJVpgAAAAJ&hl=en/">Brian G. Pierce</a>
-              </div>
-              <div id="venue">
-							  <em><a href="https://onlinelibrary.wiley.com/journal/1469896x">Protein Science</a></em>, 2022
-              </div>
-              <a href="https://www.biorxiv.org/content/10.1101/2021.10.23.465575">paper</a>
-              <p>Interesting findings from evaluating AlphaFold2 on protein-protein docking, highlighting areas for future development using deep learning methods.</p>
-            </td>
-          </tr> 
-
-          <tr onmouseout="signet_stop()" onmouseover="signet_start()"  bgcolor="#431d1d">
-            <td style="padding:1.5%;width:25%;vertical-align:middle">
-              <div class="one">
-                <div class="two" id='signet_vid'><video  width=100% height=100% muted autoplay loop>
-                <source src="videos/signet.mp4">
-                </video></div>
-                <div class="two" id='signet_image'>
-                  <img src='images/signet.png'  width="165">
-                </div>  
-              </div>
-              <script type="text/javascript">
-                function signet_start() {
-                  document.getElementById('signet_vid').style.opacity = "1";
-                  document.getElementById('signet_image').style.opacity = "0";
-
-                }
-
-                function signet_stop() {
-                  document.getElementById('signet_vid').style.opacity = "0";
-                  document.getElementById('signet_image').style.opacity = "1";
-                }
-                signet_stop()
-              </script>
-            </td>
-            <td style="padding:2%;width:65%;vertical-align:middle">
-              <div id="papertitle">
-                <a href="https://augmentariumlab.github.io/SIGNET">
-                  SIGNET: Efficient Neural Representations For Light Fields
-                </a>
-              </div>
-              <div id="authors">
-                <strong>Brandon Y. Feng</strong>,
-                <a href="https://en.wikipedia.org/wiki/Amitabh_Varshney">Amitabh Varshney</a>
-              </div>
-              <div id="venue">
-							  <em><a href="https://iccv2021.thecvf.com/home">International Conference on Computer Vision (ICCV)</a></em>, 2021 &nbsp <strong>(Oral Presentation)</strong>
-              </div>
-              <a href="https://augmentariumlab.github.io/SIGNET">project page</a>
-              |
-              <a href="./papers/SIGNET.pdf">paper</a>
-              |
-              <a href="https://youtu.be/sCJnON15mSk">video</a>
-							|
-              <a href="https://github.com/AugmentariumLab/SIGNET">code</a>
-              <p>Remarkable compression rates by representing light fields as neural network weights. Simple and compact formulation also supports angular interpolation to generate novel viewpoints.</p>
-            </td>
-          </tr> 
-
-          <tr onmouseout="gazechat_stop()" onmouseover="gazechat_start()">
-            <td style="padding:1.5%;width:25%;vertical-align:middle">
-              <div class="one">
-                <div class="two" id='gazechat_image'><video  width=100% height=100% muted autoplay loop>
-                <source src="videos/GazeChatVid.mp4">
-                Your browser does not support the video tag.
-                </video></div>
-                <img src='images/GazeChat.png'  width="165">
-              </div>
-              <script type="text/javascript">
-                function gazechat_start() {
-                  document.getElementById('gazechat_image').style.opacity = "1";
-                }
-
-                function gazechat_stop() {
-                  document.getElementById('gazechat_image').style.opacity = "0";
-                }
-                gazechat_stop()
-              </script>
-            </td>
-            <td style="padding:2%;width:65%;vertical-align:middle">
-              <div id="papertitle">
-                <a href="https://ruofeidu.com/projects/gazechat/">
-                GazeChat: Enhancing Virtual Conferences with Gaze-aware 3D Photos
-                </a>
-              </div>
-              <div id="authors">
-                <a href="https://zhenyihe.wordpress.com/">Zhenyi He</a>,
-                <a>Keru Wang</a>,
-                <strong>Brandon Y. Feng</strong>,
-                <a href="https://ruofeidu.com/">Ruofei Du</a>,
-                <a href="https://cs.nyu.edu/~perlin/">Ken Perlin</a>
-              </div>
-              <div id="venue">
-							  <em><a href="https://uist.acm.org/uist2021/">ACM Symposium on User Interface Software and Technology (UIST)</a></em>, 2021
-              </div>
-              <a href="https://ruofeidu.com/projects/gazechat/">project page</a>
-              |
-              <a href="https://ruofeidu.com/papers/He_GazeChat-EnhancingVirtualConferencesWithGaze-Aware3DPhotos_UIST2021.pdf">paper</a>
-              |
-              <a href="https://www.youtube.com/watch?v=6cyPh9jM6vQ">video</a>
-              <p>Visualizing "who's looking at who" from static profile images as people always turn off their videos. Synthesized eye gazes are obtained by leveraging a general-purpose neural network. </p>
-          </td>
-        </tr>
-
-        <tr onmouseout="quatdeep_stop()" onmouseover="quatdeep_start()">
-          <td style="padding:1.5%;width:25%;vertical-align:middle">
-            <div class="one">
-              <div class="two" id='quatdeep_img2'>
-                <img src="images/2020Deep2.png"  width="165">
-              </div>
-              <div class="two" id='quatdeep_img'>
-                <img src='images/2020Deep.png'  width="165">
-              </div>  
-            </div>
-            <script type="text/javascript">
-              function quatdeep_start() {
-                document.getElementById('quatdeep_img2').style.opacity = "1";
-                document.getElementById('quatdeep_img').style.opacity = "0";
-
-              }
-
-              function quatdeep_stop() {
-                document.getElementById('quatdeep_img2').style.opacity = "0";
-                document.getElementById('quatdeep_img').style.opacity = "1";
-              }
-              quatdeep_stop()
-            </script>
-          </td>
-          <td style="padding:2%;width:65%;vertical-align:middle">
-            <div id="papertitle">
-              <a href="./papers/Feng_DeepDepthEstimationOn360-DegreeImagesWithADoubleQuaternionLoss_2020.pdf">
-                Deep Depth Estimation on 360-Degree Images With a Double Quaternion Loss
+              <a class="external-link button is-light"
+                href="https://scholar.google.com/citations?user={{ site.google_scholar }}">
+                <span class="icon"><i class="ai ai-google-scholar ai-2x"></i></span>
+                <span>Google Scholar</span>
               </a>
-            </div>
-            <div id="authors">
-              <strong>Brandon Y. Feng</strong>,
-              <a>Wangjue Yao, Zheyuan Liu,</a>
-              <a href="https://en.wikipedia.org/wiki/Amitabh_Varshney">Amitabh Varshney</a>
-            </div>
-            <div id="venue">
-              <em><a href="http://3dv2020.dgcv.nii.ac.jp/">International Conference on 3D Vision (3DV)</a></em>, 2020
-            </div>
-            <a href="./papers/Feng_DeepDepthEstimationOn360-DegreeImagesWithADoubleQuaternionLoss_2020.pdf">paper</a>
-            <p>Training neural networks for 360&deg monocular depth and normal estimation. Proposed a novel approach of combining depth and normal as a double quaternion during loss computation.</p>
-          </td>
-        </tr>
 
-        <tr onmouseout="mri_stop()" onmouseover="mri_start()">
-          <td style="padding:1.5%;width:25%;vertical-align:middle">
-            <div class="one">
-              <div class="two" id='mri_img2'>
-              <img src="images/MRI1.png"  width="165">
-              </div>
-              <div class="two" id='mri_img'>
-                <img src='images/MRI2.png'  width="165">
-              </div>  
-            </div>
-            <script type="text/javascript">
-              function mri_start() {
-                document.getElementById('mri_img2').style.opacity = "1";
-                document.getElementById('mri_img').style.opacity = "0";
-
-              }
-
-              function mri_stop() {
-                document.getElementById('mri_img2').style.opacity = "0";
-                document.getElementById('mri_img').style.opacity = "1";
-              }
-              mri_stop()
-            </script>
-          </td>
-          <td style="padding:2%;width:65%;vertical-align:middle">
-            <div id="papertitle">
-              <a href="https://arxiv.org/abs/1811.07491">
-                A Self-Adaptive Network for Multiple Sclerosis Lesion Segmentation From Multi-Contrast MRI With Various Imaging Sequences
+              <a class="external-link button is-light" href="resume.html">
+                <span class="icon"><i class="fa fa-sticky-note"></i></span>
+                <span>Résumé</span>
               </a>
-            </div>
-            <div id="authors">
-              <strong>Brandon Y. Feng</strong>,
-              <a>Huitong Pan, Craig Meyer, Xue Feng</a>
-            </div>
-            <div id="venue">
-              <em><a href="https://biomedicalimaging.org/2019/">IEEE International Symposium on Biomedical Imaging (ISBI)</a></em>, 2019
-            </div>
-            <a href="https://arxiv.org/abs/1811.07491">paper</a>
-            <p>Neural networks with multimodal input disproportionately rely on certain modality while ignoring the rest. Developed a new strategy to overcome such bias and adapt to missing modalities.</p>
-          </td>
-        </tr>
 
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-          <tr>
-          <td style="padding:2%;width:100%;vertical-align:middle">
-            <div id="ack">
-            <p style="font-size:1em; color:rgba(255, 255, 255, 0.45);">This page is modified based on <a href="https://jonbarron.info/">Jon Barron's website</a></p>
+              <a class="external-link button is-light" href="mailto:yfeng97@umd.edu">
+                <span class="icon"><i class="fa fa-envelope"></i></span>
+                <span>Email</span>
+              </a>
+
             </div>
-          </td>
-        </tr>
-      </tbody></table>
 
-    </tbody></table>
-    </tbody></table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-    </td>
-    </tr>
 
-  </table>
+  <section class="section">
+    <div class="container is-max-desktop">
+
+      <h2 class="title is-3">Publications</h2>
+
+      {% for publication in site.data.publications %}
+      <div class="publication-block columns">
+
+        <div class="column is-2">
+          <div class="publication-image {% if publication.image_mouseover %}publication-mousecell{% endif %}">
+            {% if publication.image_mouseover contains "mp4" %}
+            <video autoplay preload playsinline class="" height="100%" loop muted width="100%">
+              <source src="./images/{{ publication.image_mouseover }}" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+            {% endif %}
+            <img alt="{{ publication.title }}" src="./images/{{ publication.image }}" />
+          </div>
+        </div>
+
+        <div class="column">
+          <div class="content">
+            <h3 class="publication-title">{{ publication.title }}</h3>
+            <div class="publication-authors">
+              {% for author_id in publication.authors %}
+              {% assign author = site.data.authors[author_id] %}
+
+              <span class="author-block {% if author.is_me %}author-me{% endif %}">
+                {% if author.is_me %}
+                {{ author.first_name }} {{author.middle_name}} {{ author.last_name }}{% if forloop.last == false %},{%
+                endif %}
+                {% else %}
+                <a href="{{ author.website }}">{{ author.first_name }} {{ author.middle_name }} {{ author.last_name
+                  }}</a>{% if forloop.last == false %},{% endif %}
+                {% endif %}
+              </span>
+              {% endfor %}
+            </div>
+            <div class="publication-venue">
+              <a href="{{ publication.venue_url }}">{{ publication.venue }}</a>
+              {% for award in publication.awards %}
+                <span class="publication-venue-emph">{{ award }}<span>
+              {% endfor %}
+            </div>
+            <p class="publication-description">{{ publication.description }}</p>
+            <!-- Publication Links. -->
+            <div class="publication-links buttons field has-addons">
+              {% if publication.project_page %}
+              <a class="external-link button is-small is-ghost" href="{{ publication.project_page }}">
+                <span class="icon"><i class="fas fa-globe-asia"></i></span>
+                <span>Project Page</span>
+              </a>
+              {% endif %}
+
+              {% if publication.doi %}
+              <a class="external-link button is-small is-ghost" href="{{ publication.doi }}">
+                <span class="icon"><i class="fa fa-book" aria-hidden="true"></i></span>
+                <span>In Print</span>
+              </a>
+              {% endif %}
+
+              {% if publication.pdf %}
+              <a class="external-link button is-small is-ghost" href="{{ publication.pdf }}">
+                <span class="icon"><i class="fas fa-file-pdf"></i></span>
+                <span>PDF</span>
+              </a>
+              {% endif %}
+
+              {% if publication.github %}
+              <a class="external-link button is-small is-ghost" href="https://github.com/{{ publication.github }}">
+                <span class="icon"><i class="fa fab fa-github"></i></span>
+                <span>Code</span>
+              </a>
+              {% endif %}
+            </div>
+            <!--/ Publication Links. -->
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </section>
+
+
+  <footer class="footer">
+    <div class="container">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-8">
+          <div class="content">
+            <p>
+              Template provided by <a href="https://keunhong.com/">Keunhong Park</a>.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
 
 </body>
+
 </html>
