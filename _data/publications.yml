@@ -1,6 +1,6 @@
 - id: viinter
   title: "VIINTER: View Interpolation With Implicit Neural Representations of Images"
-  venue: SIGGRAPH Asia, 2022
+  venue: ACM SIGGRAPH Asia, 2022
   venue_url: https://sa2022.siggraph.org/en/
   description: "View interpolation without 3D reconstruction or correspondence."
   image: viinter.png
@@ -13,7 +13,7 @@
 
 - id: prif
   title: "Primary Ray-based Implicit Function"
-  venue: ECCV, 2022
+  venue: European Conference on Computer Vision (ECCV), 2022
   venue_url: https://eccv2022.ecva.net/
   description: "Efficient implicit 3D shape representation."
   image: prif.png
@@ -57,7 +57,7 @@
 
 - id: signet
   title: "SIGNET: Efficient Neural Representations For Light Fields"
-  venue: ICCV, 2021
+  venue: International Conference on Computer Vision (ICCV), 2021
   venue_url: https://iccv2021.thecvf.com/home
   description: "Remarkable compression rates by representing light fields as neural network weights. Simple and compact formulation also supports angular interpolation to generate novel viewpoints."
   project_page: "https://augmentariumlab.github.io/SIGNET"
@@ -75,7 +75,7 @@
 
 - id: gazechat
   title: "GazeChat: Enhancing Virtual Conferences with Gaze-aware 3D Photos"
-  venue: UIST, 2021
+  venue: ACM Symposium on User Interface Software and Technology (UIST), 2021
   venue_url: https://uist.acm.org/uist2021
   description: "Visualizing \"who's looking at who\" from static profile images as people always turn off their videos. Synthesized eye gazes are obtained by leveraging a general-purpose neural network."
   image: GazeChat.jpg
@@ -93,7 +93,7 @@
 
 - id: depth360
   title: "Deep Depth Estimation on 360-Degree Images With a Double Quaternion Loss"
-  venue: 3DV, 2020
+  venue: International Conference on 3D Vision (3DV), 2020
   venue_url: http://3dv2020.dgcv.nii.ac.jp/
   description: "Training neural networks for 360&deg monocular depth and normal estimation. Proposed a novel approach of combining depth and normal as a double quaternion during loss computation."
   image: 2020Deep.png
@@ -109,7 +109,7 @@
 
 - id: mriseg
   title: "A Self-Adaptive Network for Multiple Sclerosis Lesion Segmentation From Multi-Contrast MRI With Various Imaging Sequences"
-  venue: ISBI, 2019
+  venue: IEEE International Symposium on Biomedical Imaging (ISBI), 2019
   venue_url: https://biomedicalimaging.org/2019/
   description: "Neural networks with multimodal input disproportionately rely on certain modality while ignoring the rest. Developed a new strategy to overcome such bias and adapt to missing modalities."
   image: MRI1.png
