@@ -14,6 +14,7 @@ layout: null
   <link href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css" rel="stylesheet">
   <link href="./css/bulma.min.css" rel="stylesheet">
   <link href="./css/resume.css" rel="stylesheet">
+  <link href="./css/bootstrap-grid.min.css" rel="stylesheet">
   <link rel="icon" href="images/battery-charging.svg" type="image/svg+xml" />
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
@@ -45,15 +46,17 @@ layout: null
       <div class="content">
         <h2>Education</h2>
         {% for school in site.data.education %}
-        <div class="columns">
-          <div class="column is-four-fifths">
-            <b>{{ school.name }}</b><br />
-            {{ school.description }}
-          </div>
-          <div class="column is-one-fifths has-text-right">
-            {{ school.dates }}
-            <br />
-            {{ school.location }}
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <b>{{ school.name }}</b><br />
+              {{ school.description }}
+            </div>
+            <div class="col text-right">
+              {{ school.dates }}
+              <br />
+              {{ school.location }}
+            </div>  
           </div>
         </div>
         {% endfor %}
@@ -61,15 +64,17 @@ layout: null
         <h2>Employment</h2>
 
         {% for job in site.data.employment %}
-        <div class="columns">
-          <div class="column is-four-fifths">
-            <b>{{ job.company }}</b><br />
-            {{ job.description }}
-          </div>
-          <div class="column is-one-fifths has-text-right">
-            {{ job.dates }}
-            <br />
-            {{ job.location }}
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <b>{{ job.company }}</b><br />
+              {{ job.description }}
+            </div>
+            <div class="col text-right">
+              {{ job.dates }}
+              <br />
+              {{ job.location }}
+            </div>
           </div>
         </div>
         {% endfor %}
