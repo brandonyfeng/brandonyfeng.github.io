@@ -54,11 +54,11 @@ layout: null
         <h2>Education</h2>
         {% for school in site.data.education %}
         <div class="row justify-content-between">
-          <div class="col-10">
+          <div class="col-9">
             <b>{{ school.name }}</b><br />
             {{ school.description }}
           </div>
-          <div class="col-2 text-right">
+          <div class="col-3 text-right">
             {{ school.dates }}
             <br />
             {{ school.location }}
@@ -70,11 +70,11 @@ layout: null
 
         {% for job in site.data.employment %}
         <div class="row justify-content-between">
-          <div class="col-10">
+          <div class="col-9">
             <b>{{ job.company }}</b><br />
             {{ job.description }}
           </div>
-          <div class="col-2 text-right">
+          <div class="col-3 text-right">
             {{ job.dates }}
             <br />
             {{ job.location }}
@@ -86,7 +86,7 @@ layout: null
 
         {% for publication in site.data.publications %}
         <div class="row justify-content-between">
-          <div class="col-10">
+          <div class="col-9">
             <a href="{{ publication.project_page }}"><b>{{ publication.title }}</b></a>
             <div class="publication-authors">
               {% for author_id in publication.authors %}
@@ -104,7 +104,7 @@ layout: null
             </div>
             {{ publication.description }}
           </div>
-          <div class="col-2 text-right">
+          <div class="col-3 text-right">
             <a href={{ publication.venue_url }}>{{ publication.venue }}</a>
           </div>
         </div>
