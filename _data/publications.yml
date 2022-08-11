@@ -12,10 +12,11 @@
 
 
 - id: prif
-  title: "Primary Ray-based Implicit Function"
+  title: "PRIF: Primary Ray-based Implicit Function"
   venue: ECCV, 2022
   venue_url: https://eccv2022.ecva.net/
   description: "Efficient implicit 3D shape representation."
+  project_page: "https://augmentariumlab.github.io/PRIF"
   image: prif.png
   image_mouseover: prif.mp4
   authors:
