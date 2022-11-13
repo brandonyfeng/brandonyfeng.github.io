@@ -28,6 +28,29 @@
   pdf: http://arxiv.org/abs/2208.06143
 
 
+- id: turbugan
+  title: "TurbuGAN: An Adversarial Learning Approach to Spatially-Varying Multiframe Blind Deconvolution with Applications to Imaging Through Turbulence"
+  venue: Preprint
+  venue_url: 
+  description: "Training GAN only on blurry images from a single scene to recover a sharp image without estimating the blur kernels or acquiring a large labelled dataset."
+  image: turbugan.jpg
+  image_mouseover: turbugan.mp4
+  authors:
+    - brandonyfeng*
+    - mingyang*
+    - metzler
+
+- id: nsub
+  title: "Neural Subspaces for Light Fields"
+  venue: IEEE TVCG, 2022
+  venue_url: https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=2945
+  description: "Further improved compression ability on light fields with implicit neural representations."
+  image: nsub.jpg
+  image_mouseover: nsub.mp4
+  authors:
+    - brandonyfeng
+    - varshney
+
 - id: afbench
   title: "Benchmarking AlphaFold for Protein Complex Modeling Reveals Accuracy Determinants"
   venue: Protein Science, 2022
@@ -42,20 +65,6 @@
     - brianpierce
   doi: https://onlinelibrary.wiley.com/doi/full/10.1002/pro.4379
   pdf: https://www.biorxiv.org/content/10.1101/2021.10.23.465575v1
-
-
-- id: turbugan
-  title: "TurbuGAN: An Adversarial Learning Approach to Spatially-Varying Multiframe Blind Deconvolution with Applications to Imaging Through Turbulence"
-  venue: Preprint
-  venue_url: 
-  description: "Training GAN only on blurry images from a single scene to recover a sharp image without estimating the blur kernels or acquiring a large labelled dataset."
-  image: turbugan.jpg
-  image_mouseover: turbugan.mp4
-  authors:
-    - brandonyfeng*
-    - mingyang*
-    - metzler
-
 
 - id: signet
   title: "SIGNET: Efficient Neural Representations For Light Fields"
