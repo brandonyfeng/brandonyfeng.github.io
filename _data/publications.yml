@@ -9,6 +9,7 @@
     - brandonyfeng
     - susmija
     - varshney
+  pdf: https://arxiv.org/abs/2211.00722
 
 
 - id: prif
@@ -26,6 +27,7 @@
     - ruofei
     - varshney
   pdf: http://arxiv.org/abs/2208.06143
+  github: AugmentariumLab/VIINTER
 
 
 - id: turbugan
