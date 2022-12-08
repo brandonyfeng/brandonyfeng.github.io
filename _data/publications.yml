@@ -2,7 +2,7 @@
   title: "StegaNeRF: Embedding Invisible Information within Neural Radiance Fields"
   venue: preprint
   venue_url: 
-  description: "Embedding hidden signals in NeRF renderings from arbitrary viewpoints."
+  description: "Embedding hidden signals in NeRF renderings from arbitrary viewpoints. Opens up possibility of NeRF model and data ownership identification and protection as more and more NeRF models are exchanged and distributed online."
   image: horns_ren.gif
   image_mouseover: horns_res.mp4
   authors:
