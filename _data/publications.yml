@@ -1,3 +1,18 @@
+- id: steganerf
+  title: "StegaNeRF: Embedding Invisible Information within Neural Radiance Fields"
+  venue: preprint
+  venue_url: 
+  description: "Embedding hidden signals in NeRF renderings from arbitrary viewpoints."
+  image: horns_ren.mp4
+  image_mouseover: horns_res.mp4
+  authors:
+    - brandonyfeng*
+    - chenxinli*
+    - zhiwenfan*
+    - panwangpan
+    - zhangyang wang
+  pdf: https://arxiv.org/abs/2212.01602
+
 - id: viinter
   title: "VIINTER: View Interpolation With Implicit Neural Representations of Images"
   venue: SIGGRAPH Asia, 2022
