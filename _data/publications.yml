@@ -12,6 +12,7 @@
     - panwangpan
     - zhangyangwang
   pdf: https://arxiv.org/abs/2212.01602
+  project_page: https://xggnet.github.io/StegaNeRF/
 
 - id: viinter
   title: "VIINTER: View Interpolation With Implicit Neural Representations of Images"
