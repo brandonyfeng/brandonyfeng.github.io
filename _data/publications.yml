@@ -11,7 +11,7 @@
     - varshney
   pdf: https://arxiv.org/abs/2211.00722
   github: AugmentariumLab/VIINTER
-
+  doi: https://dl.acm.org/doi/abs/10.1145/3550469.3555417
 
 - id: prif
   title: "PRIF: Primary Ray-based Implicit Function"
@@ -32,8 +32,8 @@
 
 - id: turbugan
   title: "TurbuGAN: An Adversarial Learning Approach to Spatially-Varying Multiframe Blind Deconvolution with Applications to Imaging Through Turbulence"
-  venue: Preprint
-  venue_url: 
+  venue: IEEE Journal on Selected Areas in Information Theory, 2022
+  venue_url: https://www.itsoc.org/jsait
   description: "Training GAN only on blurry images from a single scene to recover a sharp image without estimating the blur kernels or acquiring a large labelled dataset."
   image: turbugan.jpg
   image_mouseover: turbugan.mp4
@@ -41,10 +41,11 @@
     - brandonyfeng*
     - mingyang*
     - metzler
+  pdf: https://arxiv.org/abs/2203.06764
 
 - id: nsub
   title: "Neural Subspaces for Light Fields"
-  venue: IEEE TVCG, 2022
+  venue: IEEE Transactions on Visualization and Computer Graphics, 2022
   venue_url: https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=2945
   description: "Further improved compression ability on light fields with implicit neural representations."
   image: nsub.jpg
@@ -52,6 +53,8 @@
   authors:
     - brandonyfeng
     - varshney
+  doi: https://ieeexplore.ieee.org/abstract/document/9968104
+  pdf: ./papers/tvcg-neuralsubspace.pdf
 
 - id: afbench
   title: "Benchmarking AlphaFold for Protein Complex Modeling Reveals Accuracy Determinants"
