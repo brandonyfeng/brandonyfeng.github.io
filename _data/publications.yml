@@ -1,19 +1,3 @@
-- id: steganerf
-  title: "StegaNeRF: Embedding Invisible Information within Neural Radiance Fields"
-  venue: preprint
-  venue_url: 
-  description: "Embedding hidden signals in NeRF renderings from arbitrary viewpoints. Opens up possibility of NeRF model and data ownership identification and protection as more and more NeRF models are exchanged and distributed online."
-  image: horns_ren.gif
-  image_mouseover: horns_res.mp4
-  authors:
-    - brandonyfeng*
-    - chenxinli*
-    - zhiwenfan*
-    - panwangpan
-    - zhangyangwang
-  pdf: https://arxiv.org/abs/2212.01602
-  project_page: https://xggnet.github.io/StegaNeRF/
-
 - id: viinter
   title: "VIINTER: View Interpolation With Implicit Neural Representations of Images"
   venue: SIGGRAPH Asia, 2022
@@ -45,7 +29,6 @@
     - varshney
   pdf: http://arxiv.org/abs/2208.06143
 
-
 - id: turbugan
   title: "TurbuGAN: An Adversarial Learning Approach to Spatially-Varying Multiframe Blind Deconvolution with Applications to Imaging Through Turbulence"
   venue: IEEE Journal on Selected Areas in Information Theory, 2022
@@ -71,6 +54,22 @@
     - varshney
   doi: https://ieeexplore.ieee.org/abstract/document/9968104
   pdf: ./papers/tvcg-neuralsubspace.pdf
+
+- id: steganerf
+  title: "StegaNeRF: Embedding Invisible Information within Neural Radiance Fields"
+  venue: preprint
+  venue_url: 
+  description: "Embedding hidden signals in NeRF renderings from arbitrary viewpoints. Opens up possibility of NeRF model and data ownership identification and protection as more and more NeRF models are exchanged and distributed online."
+  image: horns_ren.gif
+  image_mouseover: horns_res.mp4
+  authors:
+    - brandonyfeng*
+    - chenxinli*
+    - zhiwenfan*
+    - panwangpan
+    - zhangyangwang
+  pdf: https://arxiv.org/abs/2212.01602
+  project_page: https://xggnet.github.io/StegaNeRF/
 
 - id: afbench
   title: "Benchmarking AlphaFold for Protein Complex Modeling Reveals Accuracy Determinants"
