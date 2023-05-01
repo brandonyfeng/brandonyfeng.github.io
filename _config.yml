@@ -18,8 +18,6 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-url: https://brandonyfeng.github.io
-name: Brandon Y. Feng
 description: >-
   I am a Ph.D. Candidate in Computer Science at the University of Maryland, 
   advised by [Prof. Amitabh Varshney](https://en.wikipedia.org/wiki/Amitabh_Varshney) 
@@ -27,6 +25,8 @@ description: >-
   My research interest centers around computational imaging, mid-level vision, and computational photography. I have developed machine learning algorithms for image and 3D data processing, with applications ranging from mixed reality to natural science.
   My goal is to extend the boundary of visible reality for humans, designing physics-inspired machine learning algorithms that augment and unlock human abilities to perceive and create information.
 
+url: https://brandonyfeng.github.io
+name: Brandon Y. Feng
 baseurl: "" # the subpath of your site, e.g. /blog
 google_scholar: VCeYRsYAAAAJ
 
