@@ -24,9 +24,9 @@ name: Brandon Y. Feng
 email: yfeng97@umd.edu
 position: Ph.D. Candidate in Computer Science
 description: >-
-  I am a Ph.D. Candidate in Computer Science at the University of Maryland advised by [Prof. Amitabh Varshney](https://en.wikipedia.org/wiki/Amitabh_Varshney).
-  My research lies at the intersection of graphics, vision, and imaging. I develop machine learning algorithms for image and 3D data processing, with applications ranging from mixed reality to natural science.
-  My goal is to enhance our ability to perceive, represent, and create information with positive societal impact.
+  I am a Ph.D. Candidate in Computer Science at the University of Maryland, advised by [Prof. Amitabh Varshney](https://en.wikipedia.org/wiki/Amitabh_Varshney) and closely working with [Prof. Chris Metzler](http://www.cs.umd.edu/~metzler/) and [Prof. Jia-Bin Huang](https://jbhuang0604.github.io/).
+  My research interest centers around computational imaging, mid-level vision, and computational photography. I have developed machine learning algorithms for image and 3D data processing, with applications ranging from mixed reality to natural science.
+  My goal is to extend the boundary of visible reality for humans, designing physics-inspired machine learning algorithms that augment and unlock human abilities to perceive and create information.
 
 baseurl: "" # the subpath of your site, e.g. /blog
 google_scholar: VCeYRsYAAAAJ
