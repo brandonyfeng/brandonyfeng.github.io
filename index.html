@@ -76,22 +76,26 @@ layout: null
       <div class="publication-block columns">
 
         <div class="column is-2">
+          {% if publication.image contains ".mp4" %}
+          <div class="publication-image {% if publication.image_mouseover %}publication-mousecell2{% endif %}">
+            <video autoplay preload playsinline id="vid_front" class="" height="100%" auto loop muted width="100%">
+              <source src="./images/{{ publication.image }}" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+            <video autoplay preload playsinline id="vid_back" class="" height="100%" auto loop muted width="100%" style="display:none">
+              <source src="./images/{{ publication.image_mouseover }}" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+          </div>
+          {% else %}
           <div class="publication-image {% if publication.image_mouseover %}publication-mousecell{% endif %}">
-            {% if publication.image_mouseover contains "mp4" %}
             <video autoplay preload playsinline class="" height="100%" auto loop muted width="100%">
               <source src="./images/{{ publication.image_mouseover }}" type="video/mp4">
               Your browser does not support the video tag.
             </video>
-            {% endif %}
-            {% if publication.image contains "mp4" %}
-            <video autoplay preload playsinline class="" height="100%" auto loop muted width="100%">
-              <source src="./images/{{ publication.image }}" type="video/mp4">
-              Your browser does not support the video tag.
-            </video>
-            {% else %}
             <img alt="{{ publication.title }}" src="./images/{{ publication.image }}" />
-            {% endif %}
           </div>
+          {% endif %}
         </div>
 
         <div class="column">

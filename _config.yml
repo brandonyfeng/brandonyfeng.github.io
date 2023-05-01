@@ -18,13 +18,12 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
+url: https://brandonyfeng.github.io
 title: Brandon Y. Feng
 name: Brandon Y. Feng
 email: yfeng97@umd.edu
 position: Ph.D. Candidate in Computer Science
-url: https://brandonyfeng.github.io
 description: >-
-
   I am a Ph.D. Candidate in Computer Science at the University of Maryland advised by [Prof. Amitabh Varshney](https://en.wikipedia.org/wiki/Amitabh_Varshney).
   My research lies at the intersection of graphics, vision, and imaging. I develop machine learning algorithms for image and 3D data processing, with applications ranging from mixed reality to natural science.
   My goal is to enhance our ability to perceive, represent, and create information with positive societal impact.
