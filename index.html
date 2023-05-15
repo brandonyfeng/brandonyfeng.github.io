@@ -13,8 +13,6 @@ layout: null
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Google+Sans:wght@700&family=Noto+Sans:wght@400;500;600;700&display=swap">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
-  <link rel="stylesheet" href="{{ '/css/fontawesome.all.min.css' | relative_url }}">
-  <link rel="stylesheet" href="{{ '/css/fontawesome.all.css' | relative_url }}">
   <link href="{{ '/css/bulma.min.css' | relative_url }}" rel="stylesheet">
   <link href="{{ '/css/index.css' | relative_url }}" rel="stylesheet">
   <link rel="icon" href="images/battery-charging.svg" type="image/svg+xml" />
@@ -133,7 +131,7 @@ layout: null
             <div class="publication-links buttons field has-addons">
               {% if publication.project_page %}
               <a class="external-link button is-small is-ghost" href="{{ publication.project_page }}">
-                <span class="icon"><i class="fas fa-globe-asia"></i></span>
+                <span class="icon"><i class="fa fa-globe"></i></span>
                 <span>Project Page</span>
               </a>
               {% endif %}
@@ -147,7 +145,7 @@ layout: null
 
               {% if publication.pdf %}
               <a class="external-link button is-small is-ghost" href="{{ publication.pdf }}">
-                <span class="icon"><i class="fas fa-file-pdf"></i></span>
+                <span class="icon"><i class="fa fa-file-pdf-o"></i></span>
                 <span>PDF</span>
               </a>
               {% endif %}
