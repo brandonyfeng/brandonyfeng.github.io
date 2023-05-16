@@ -1,6 +1,6 @@
 - id: neuws
   title: "NeuWS: NeuWS: Neural Wavefront Shaping for Guidestar-Free Imaging Through Static and Dynamic Scattering Media"
-  venue: Science Advances, 2023
+  venue: Science Advances 2023
   venue_url: https://www.science.org/journal/sciadv
   description: "Neural signal representations enable breakthroughs in correcting for severe time-varying wavefront aberrations caused by scattering media."
   image: neuws1.mp4
@@ -16,7 +16,7 @@
 
 - id: viinter
   title: "VIINTER: View Interpolation With Implicit Neural Representations of Images"
-  venue: SIGGRAPH Asia, 2022
+  venue: SIGGRAPH Asia 2022
   venue_url: https://sa2022.siggraph.org/en/
   description: "View interpolation without 3D reconstruction or correspondence."
   image: viinter.png
@@ -31,7 +31,7 @@
 
 - id: prif
   title: "PRIF: Primary Ray-based Implicit Function"
-  venue: ECCV, 2022
+  venue: European Conference on Computer Vision (ECCV) 2022
   venue_url: https://eccv2022.ecva.net/
   description: "Efficient implicit 3D shape representation."
   project_page: "https://augmentariumlab.github.io/PRIF"
@@ -74,7 +74,7 @@
 
 - id: steganerf
   title: "StegaNeRF: Embedding Invisible Information within Neural Radiance Fields"
-  venue: preprint
+  venue: Preprint
   venue_url: 
   description: "Embedding hidden signals in NeRF renderings from arbitrary viewpoints. Opens up possibility of NeRF model and data ownership identification and protection as more and more NeRF models are exchanged and distributed online."
   image: horns_ren.gif
@@ -90,7 +90,7 @@
 
 - id: afbench
   title: "Benchmarking AlphaFold for Protein Complex Modeling Reveals Accuracy Determinants"
-  venue: Protein Science, 2022
+  venue: Protein Science 2022
   venue_url: https://onlinelibrary.wiley.com/journal/1469896x
   description: "Interesting findings from evaluating AlphaFold2 on protein-protein docking, highlighting areas for future development using deep learning methods."
   image: protein.jpg
@@ -105,7 +105,7 @@
 
 - id: signet
   title: "SIGNET: Efficient Neural Representations For Light Fields"
-  venue: ICCV, 2021
+  venue: International Conference on Computer Vision (ICCV) 2021
   venue_url: https://iccv2021.thecvf.com/home
   description: "Remarkable compression rates by representing light fields as neural network weights. Simple and compact formulation also supports angular interpolation to generate novel viewpoints."
   project_page: "https://augmentariumlab.github.io/SIGNET"
@@ -123,7 +123,7 @@
 
 - id: gazechat
   title: "GazeChat: Enhancing Virtual Conferences with Gaze-aware 3D Photos"
-  venue: UIST, 2021
+  venue:  ACM Symposium on User Interface Software and Technology (UIST) 2021
   venue_url: https://uist.acm.org/uist2021
   description: "Visualizing \"who's looking at who\" from static profile images as people always turn off their videos. Synthesized eye gazes are obtained by leveraging a general-purpose neural network."
   image: GazeChat.jpg
@@ -141,7 +141,7 @@
 
 - id: depth360
   title: "Deep Depth Estimation on 360-Degree Images With a Double Quaternion Loss"
-  venue: 3DV, 2020
+  venue: International Conference on 3D Vision (3DV) 2020
   venue_url: http://3dv2020.dgcv.nii.ac.jp/
   description: "Training neural networks for 360&deg monocular depth and normal estimation. Proposed a novel approach of combining depth and normal as a double quaternion during loss computation."
   image: 2020Deep.png
@@ -157,7 +157,7 @@
 
 - id: mriseg
   title: "A Self-Adaptive Network for Multiple Sclerosis Lesion Segmentation From Multi-Contrast MRI With Various Imaging Sequences"
-  venue: ISBI, 2019
+  venue: IEEE International Symposium on Biomedical Imaging (ISBI) 2019
   venue_url: https://biomedicalimaging.org/2019/
   description: "Neural networks with multimodal input disproportionately rely on certain modality while ignoring the rest. Developed a new strategy to overcome such bias and adapt to missing modalities."
   image: MRI1.png
