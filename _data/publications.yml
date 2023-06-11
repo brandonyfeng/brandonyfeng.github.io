@@ -1,5 +1,5 @@
 - id: neuws
-  title: "NeuWS: NeuWS: Neural Wavefront Shaping for Guidestar-Free Imaging Through Static and Dynamic Scattering Media"
+  title: "NeuWS: Neural Wavefront Shaping for Guidestar-Free Imaging Through Static and Dynamic Scattering Media"
   venue: Science Advances 2023
   venue_url: https://www.science.org/journal/sciadv
   description: "Neural signal representations enable breakthroughs in correcting for severe time-varying wavefront aberrations caused by scattering media."
