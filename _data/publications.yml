@@ -14,8 +14,8 @@
     - ashokv
     - metzler
   pdf: https://www.science.org/doi/10.1126/sciadv.adg4671
-  awards:
-    - "<a href="https://web.archive.org/web/20230628185405/https://www.science.org/">Science.org Headline</a>"
+  award: "Science.org Headline"
+  award_url: https://web.archive.org/web/20230628185405/https://www.science.org/
 
 - id: viinter
   title: "VIINTER: View Interpolation With Implicit Neural Representations of Images"
@@ -118,8 +118,7 @@
   authors:
     - brandonyfeng
     - varshney
-  awards:
-    - "Oral Presentation (Top 3%)"
+  award: "Oral Presentation (Top 3%)"
   #pdf: ./papers/SIGNET.pdf
   pdf: https://openaccess.thecvf.com/content/ICCV2021/html/Feng_SIGNET_Efficient_Neural_Representation_for_Light_Fields_ICCV_2021_paper.html
 

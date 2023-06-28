@@ -122,9 +122,9 @@ layout: null
             </div>
             <div class="publication-venue">
               <a href="{{ publication.venue_url }}">{{ publication.venue }}</a>
-              {% for award in publication.awards %}
-                <span class="publication-venue-emph">{{ award }}<span>
-              {% endfor %}
+              <span class="publication-venue-emph">
+                {{ <a href="{{ publication.award_url }}">{{ publication.award }}</a> }}
+              </span>
             </div>
             <p class="publication-description">{{ publication.description }}</p>
             <!-- Publication Links. -->
