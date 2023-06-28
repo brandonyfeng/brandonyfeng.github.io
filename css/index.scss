@@ -37,18 +37,25 @@
         margin-top: 0;
     }
 
-    .publication-venue-emph a{
+    .publication-venue-emph{
         font-style: normal;
         font-size: 80%;
         font-weight: 500;
         color: firebrick;
         padding-left: 0.25em;
+        a {
+            color: firebrick;
+        }
+
     }
 
-    .publication-award a {
+    .publication-award {
         color: firebrick;
         width: fit-content;
         font-weight: bolder;
+        a {
+            color: firebrick;
+        }
     }
 
     .publication-authors {
