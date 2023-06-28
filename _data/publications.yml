@@ -26,9 +26,9 @@
     - brandonyfeng
     - susmija
     - varshney
-  pdf: https://arxiv.org/abs/2211.00722
+  #pdf: https://arxiv.org/abs/2211.00722
   github: AugmentariumLab/VIINTER
-  doi: https://dl.acm.org/doi/abs/10.1145/3550469.3555417
+  pdf: https://dl.acm.org/doi/abs/10.1145/3550469.3555417
 
 - id: prif
   title: "PRIF: Primary Ray-based Implicit Function"
@@ -57,8 +57,8 @@
     - brandonyfeng*
     - mingyang*
     - metzler
-  pdf: https://arxiv.org/abs/2203.06764
-  doi: https://ieeexplore.ieee.org/abstract/document/10012058
+  #pdf: https://arxiv.org/abs/2203.06764
+  pdf: https://ieeexplore.ieee.org/abstract/document/10012058
 
 - id: nsub
   title: "Neural Subspaces for Light Fields"
@@ -70,8 +70,8 @@
   authors:
     - brandonyfeng
     - varshney
-  doi: https://ieeexplore.ieee.org/abstract/document/9968104
-  pdf: ./papers/tvcg-neuralsubspace.pdf
+  pdf: https://ieeexplore.ieee.org/abstract/document/9968104
+  #pdf: ./papers/tvcg-neuralsubspace.pdf
 
 - id: steganerf
   title: "StegaNeRF: Embedding Invisible Information within Neural Radiance Fields"
@@ -101,8 +101,8 @@
     - brandonyfeng
     - varshney
     - brianpierce
-  doi: https://onlinelibrary.wiley.com/doi/full/10.1002/pro.4379
-  pdf: https://www.biorxiv.org/content/10.1101/2021.10.23.465575v1
+  pdf: https://onlinelibrary.wiley.com/doi/full/10.1002/pro.4379
+  #pdf: https://www.biorxiv.org/content/10.1101/2021.10.23.465575v1
 
 - id: signet
   title: "SIGNET: Efficient Neural Representations For Light Fields"
@@ -118,8 +118,8 @@
     - varshney
   awards:
     - "Oral Presentation (Top 3%)"
-  pdf: ./papers/SIGNET.pdf
-  doi: https://openaccess.thecvf.com/content/ICCV2021/html/Feng_SIGNET_Efficient_Neural_Representation_for_Light_Fields_ICCV_2021_paper.html
+  #pdf: ./papers/SIGNET.pdf
+  pdf: https://openaccess.thecvf.com/content/ICCV2021/html/Feng_SIGNET_Efficient_Neural_Representation_for_Light_Fields_ICCV_2021_paper.html
 
 
 - id: gazechat
@@ -136,8 +136,8 @@
     - ruofei
     - kenperlin
   project_page: https://ruofeidu.com/projects/gazechat/
-  pdf: https://ruofeidu.com/papers/He_GazeChat-EnhancingVirtualConferencesWithGaze-Aware3DPhotos_UIST2021.pdf
-  doi: https://dl.acm.org/doi/10.1145/3472749.3474785
+  #pdf: https://ruofeidu.com/papers/He_GazeChat-EnhancingVirtualConferencesWithGaze-Aware3DPhotos_UIST2021.pdf
+  pdf: https://dl.acm.org/doi/10.1145/3472749.3474785
 
 
 - id: depth360
@@ -152,8 +152,8 @@
     - wyao
     - zliu
     - varshney
-  pdf: papers/Feng_DeepDepthEstimationOn360-DegreeImagesWithADoubleQuaternionLoss_2020.pdf
-  doi: https://ieeexplore.ieee.org/document/9320332
+  #pdf: papers/Feng_DeepDepthEstimationOn360-DegreeImagesWithADoubleQuaternionLoss_2020.pdf
+  pdf: https://ieeexplore.ieee.org/document/9320332
 
 
 - id: mriseg
@@ -168,5 +168,5 @@
     - hpan
     - cmeyer
     - xfeng
-  pdf: https://arxiv.org/abs/1811.07491
-  doi: https://ieeexplore.ieee.org/document/8759522
+  #pdf: https://arxiv.org/abs/1811.07491
+  pdf: https://ieeexplore.ieee.org/document/8759522
