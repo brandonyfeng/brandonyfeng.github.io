@@ -3,7 +3,7 @@
   venue: Science Advances 2023
   venue_url: https://www.science.org/journal/sciadv
   description: "Neural signal representations enable breakthroughs in correcting for severe time-varying wavefront aberrations caused by scattering media."
-  image: neuws1.mp4
+  image: neuws1.png
   image_mouseover: neuws2.mp4
   authors:
     - brandonyfeng*
