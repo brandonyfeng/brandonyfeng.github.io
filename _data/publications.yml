@@ -13,6 +13,7 @@
     - manojs
     - ashokv
     - metzler
+  pdf: https://www.science.org/doi/10.1126/sciadv.adg4671
 
 - id: viinter
   title: "VIINTER: View Interpolation With Implicit Neural Representations of Images"
