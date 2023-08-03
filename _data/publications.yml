@@ -3,8 +3,8 @@
   venue: Science Advances 2023
   venue_url: https://www.science.org/journal/sciadv
   description: "Neural signal representations enable breakthroughs in correcting for severe time-varying wavefront aberrations caused by scattering media."
-  image: neuws1.png
-  image_mouseover: neuws2.mp4
+  image: neuws.jpg
+  image_mouseover: neuws.mp4
   authors:
     - brandonyfeng*
     - haiyunguo*
@@ -17,6 +17,37 @@
   award: "Science.org Headline"
   award_url: https://web.archive.org/web/20230628185405/https://www.science.org/
 
+- id: motionmag
+  title: "3D Motion Magnification: Visualizing Subtle Motions with Time-Varying Neural Fields"
+  venue: International Conference on Computer Vision (ICCV) 2023
+  venue_url: https://iccv2023.thecvf.com/
+  description: "3D motion magnification allows us to magnify subtle motions in seeamingly static scenes while supporting rendering from novel views."
+  image: momag.jpg
+  image_mouseover: momag.mp4
+  authors:
+    - brandonyfeng*
+    - hadi*
+    - mikirub
+    - billf
+    - jbhuang
+  project_page: .
+
+- id: steganerf
+  title: "StegaNeRF: Embedding Invisible Information within Neural Radiance Fields"
+  venue: International Conference on Computer Vision (ICCV) 2023
+  venue_url: https://iccv2023.thecvf.com/
+  description: "Embedding hidden signals in NeRF renderings from arbitrary viewpoints. Opens up possibility of NeRF model and data ownership identification and protection as more and more NeRF models are exchanged and distributed online."
+  image: stega1.mp4
+  image_mouseover: stega2.mp4
+  authors:
+    - brandonyfeng*
+    - chenxinli*
+    - zhiwenfan*
+    - panwangpan
+    - zhangyangwang
+  pdf: https://arxiv.org/abs/2212.01602
+  project_page: https://xggnet.github.io/StegaNeRF/
+
 - id: viinter
   title: "VIINTER: View Interpolation With Implicit Neural Representations of Images"
   venue: SIGGRAPH Asia 2022
@@ -28,7 +59,6 @@
     - brandonyfeng
     - susmija
     - varshney
-  #pdf: https://arxiv.org/abs/2211.00722
   github: AugmentariumLab/VIINTER
   pdf: https://dl.acm.org/doi/abs/10.1145/3550469.3555417
 
@@ -59,7 +89,6 @@
     - brandonyfeng*
     - mingyang*
     - metzler
-  #pdf: https://arxiv.org/abs/2203.06764
   pdf: https://ieeexplore.ieee.org/abstract/document/10012058
 
 - id: nsub
@@ -73,23 +102,6 @@
     - brandonyfeng
     - varshney
   pdf: https://ieeexplore.ieee.org/abstract/document/9968104
-  #pdf: ./papers/tvcg-neuralsubspace.pdf
-
-- id: steganerf
-  title: "StegaNeRF: Embedding Invisible Information within Neural Radiance Fields"
-  venue: Preprint
-  venue_url: 
-  description: "Embedding hidden signals in NeRF renderings from arbitrary viewpoints. Opens up possibility of NeRF model and data ownership identification and protection as more and more NeRF models are exchanged and distributed online."
-  image: horns_ren.gif
-  image_mouseover: horns_res.mp4
-  authors:
-    - brandonyfeng*
-    - chenxinli*
-    - zhiwenfan*
-    - panwangpan
-    - zhangyangwang
-  pdf: https://arxiv.org/abs/2212.01602
-  project_page: https://xggnet.github.io/StegaNeRF/
 
 - id: afbench
   title: "Benchmarking AlphaFold for Protein Complex Modeling Reveals Accuracy Determinants"
@@ -104,7 +116,6 @@
     - varshney
     - brianpierce
   pdf: https://onlinelibrary.wiley.com/doi/full/10.1002/pro.4379
-  #pdf: https://www.biorxiv.org/content/10.1101/2021.10.23.465575v1
 
 - id: signet
   title: "SIGNET: Efficient Neural Representations For Light Fields"
@@ -119,7 +130,6 @@
     - brandonyfeng
     - varshney
   award: "Oral Presentation (Top 3%)"
-  #pdf: ./papers/SIGNET.pdf
   pdf: https://openaccess.thecvf.com/content/ICCV2021/html/Feng_SIGNET_Efficient_Neural_Representation_for_Light_Fields_ICCV_2021_paper.html
 
 
@@ -137,7 +147,6 @@
     - ruofei
     - kenperlin
   project_page: https://ruofeidu.com/projects/gazechat/
-  #pdf: https://ruofeidu.com/papers/He_GazeChat-EnhancingVirtualConferencesWithGaze-Aware3DPhotos_UIST2021.pdf
   pdf: https://dl.acm.org/doi/10.1145/3472749.3474785
 
 
@@ -153,7 +162,6 @@
     - wyao
     - zliu
     - varshney
-  #pdf: papers/Feng_DeepDepthEstimationOn360-DegreeImagesWithADoubleQuaternionLoss_2020.pdf
   pdf: https://ieeexplore.ieee.org/document/9320332
 
 
@@ -169,5 +177,4 @@
     - hpan
     - cmeyer
     - xfeng
-  #pdf: https://arxiv.org/abs/1811.07491
   pdf: https://ieeexplore.ieee.org/document/8759522

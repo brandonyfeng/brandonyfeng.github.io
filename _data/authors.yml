@@ -11,6 +11,35 @@ brandonyfeng*:
   website: https://brandonyfeng.github.io/
   is_me: true
 
+hadi*:
+  first_name: Hadi
+  middle_name: 
+  last_name: AlZayer*
+  website: https://hadizayer.github.io/
+  is_me: false
+
+mikirub:
+  first_name: Michael
+  middle_name: 
+  last_name: Rubinstein
+  website: http://people.csail.mit.edu/mrub/
+  is_me: false
+
+billf:
+  first_name: William
+  middle_name: T.
+  last_name: Freeman
+  website: https://billf.mit.edu/
+  is_me: false
+
+jbhuang:
+  first_name: Jia-Bin
+  middle_name: 
+  last_name: Huang
+  website: https://jbhuang0604.github.io/
+  is_me: false
+
+
 haiyunguo*:
   first_name: Haiyun
   middle_name:
