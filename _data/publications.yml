@@ -30,7 +30,8 @@
     - mikirub
     - billf
     - jbhuang
-  project_page: .
+  project_page: https://3d-motion-magnification.github.io/
+  pdf: https://arxiv.org/abs/2308.03757
 
 - id: steganerf
   title: "StegaNeRF: Embedding Invisible Information within Neural Radiance Fields"
