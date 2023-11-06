@@ -11,6 +11,34 @@ brandonyfeng*:
   website: https://brandonyfeng.github.io/
   is_me: true
 
+haowenzhou*:
+  first_name: Haowen
+  middle_name: 
+  last_name: Zhou*
+  website: https://scholar.google.com/citations?user=feZDslgAAAAJ&hl=en&oi=ao
+  is_me: false
+
+changhueiy:
+  first_name: Changhuei
+  middle_name: 
+  last_name: Yang
+  website: https://www.eas.caltech.edu/people/chyang
+  is_me: false
+
+siyul:
+  first_name: Siyu
+  middle_name: 
+  last_name: Lin
+  website: https://biophot.caltech.edu/People
+  is_me: false
+
+mingshul:
+  first_name: Mingshu
+  middle_name: 
+  last_name: Liang
+  website: https://biophot.caltech.edu/People
+  is_me: false
+
 hadi*:
   first_name: Hadi
   middle_name: 
@@ -44,6 +72,12 @@ haiyunguo*:
   first_name: Haiyun
   middle_name:
   last_name: Guo*
+  website: https://scholar.google.com/citations?hl=en&user=HW0Ocj8AAAAJ
+
+haiyunguo:
+  first_name: Haiyun
+  middle_name:
+  last_name: Guo
   website: https://scholar.google.com/citations?hl=en&user=HW0Ocj8AAAAJ
 
 vivekb:
