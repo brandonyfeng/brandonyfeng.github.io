@@ -1,0 +1,205 @@
+- id: neuws
+  title: "NeuWS: Neural Wavefront Shaping for Guidestar-Free Imaging Through Static and Dynamic Scattering Media"
+  venue: Science Advances, 2023
+  venue_url: https://www.science.org/journal/sciadv
+  description: "Neural signal representations enable breakthroughs in correcting for severe time-varying wavefront aberrations caused by scattering media."
+  image: neuws.jpg
+  image_mouseover: neuws.mp4
+  authors:
+    - brandonyfeng*
+    - haiyunguo*
+    - mingyang
+    - vivekb
+    - manojs
+    - ashokv
+    - metzler
+  pdf: https://www.science.org/doi/10.1126/sciadv.adg4671
+  award: "Science.org Headline"
+  award_url: https://web.archive.org/web/20230628185405/https://www.science.org/
+  acceptance_rate: "10.4% acceptance rate"
+  github: Intelligent-Sensing/NeuWS
+
+- id: fpminr
+  title: "FPM-INR: Fourier Ptychographic Microscopy Image Stack Reconstruction Using Implicit Neural Representations"
+  venue: Optica, 2023
+  venue_url: https://opg.optica.org/optica/journal-report.cfm
+  description: "Physics-based neural signal representations accelerate real-time 3D refocusing in Fourier ptychographic microscopy and overcome barriers to clinical diagnosis."
+  image: fpminr.jpg
+  image_mouseover: fpminr.mp4
+  authors:
+    - haowenzhou*
+    - brandonyfeng*
+    - haiyunguo
+    - siyul
+    - mingshul
+    - metzler
+    - changhueiy
+  pdf: https://opg.optica.org/abstract.cfm?uri=optica-10-12-1679
+  project_page: https://hwzhou2020.github.io/FPM-INR-Web/
+  acceptance_rate: "11.8% acceptance rate"
+  github: hwzhou2020/FPM_INR
+
+- id: motionmag
+  title: "3D Motion Magnification: Visualizing Subtle Motions with Time-Varying Neural Fields"
+  venue: International Conference on Computer Vision (ICCV) 2023
+  venue_url: https://iccv2023.thecvf.com/
+  description: "3D motion magnification allows us to magnify subtle motions in seeamingly static scenes while supporting rendering from novel views."
+  image: momag.jpg
+  image_mouseover: momag.mp4
+  authors:
+    - brandonyfeng*
+    - hadi*
+    - mikirub
+    - billf
+    - jbhuang
+  project_page: https://3d-motion-magnification.github.io/
+  pdf: https://arxiv.org/abs/2308.03757
+  github: 3d-motion-magnification/3d-motion-mag
+
+- id: steganerf
+  title: "StegaNeRF: Embedding Invisible Information within Neural Radiance Fields"
+  venue: International Conference on Computer Vision (ICCV) 2023
+  venue_url: https://iccv2023.thecvf.com/
+  description: "Embedding hidden signals in NeRF renderings from arbitrary viewpoints. Opens up possibility of NeRF model and data ownership identification and protection as more and more NeRF models are exchanged and distributed online."
+  image: stega1.mp4
+  image_mouseover: stega2.mp4
+  authors:
+    - chenxinli*
+    - brandonyfeng*
+    - zhiwenfan*
+    - panwangpan
+    - zhangyangwang
+  pdf: https://arxiv.org/abs/2212.01602
+  project_page: https://xggnet.github.io/StegaNeRF/
+  github: XGGNet/StegaNeRF
+
+- id: viinter
+  title: "VIINTER: View Interpolation with Implicit Neural Representations of Images"
+  venue: SIGGRAPH Asia 2022
+  venue_url: https://sa2022.siggraph.org/en/
+  description: "View interpolation without 3D reconstruction or correspondence."
+  image: viinter.png
+  image_mouseover: viinter.mp4
+  authors:
+    - brandonyfeng
+    - susmija
+    - varshney
+  github: AugmentariumLab/VIINTER
+  pdf: https://dl.acm.org/doi/abs/10.1145/3550469.3555417
+
+- id: prif
+  title: "PRIF: Primary Ray-based Implicit Function"
+  venue: European Conference on Computer Vision (ECCV) 2022
+  venue_url: https://eccv2022.ecva.net/
+  description: "Efficient implicit 3D shape representation."
+  project_page: "https://augmentariumlab.github.io/PRIF"
+  image: prif.png
+  image_mouseover: prif.mp4
+  authors:
+    - brandonyfeng
+    - yinda
+    - danhang
+    - ruofei
+    - varshney
+  pdf: http://arxiv.org/abs/2208.06143
+
+- id: turbugan
+  title: "TurbuGAN: An Adversarial Learning Approach to Spatially-Varying Multiframe Blind Deconvolution with Applications to Imaging Through Turbulence"
+  venue: IEEE Journal on Selected Areas in Information Theory, 2022
+  venue_url: https://www.itsoc.org/jsait
+  description: "Training GAN only on blurry images from a single scene to recover a sharp image without estimating the blur kernels or acquiring a large labelled dataset."
+  image: turbugan.jpg
+  image_mouseover: turbugan.mp4
+  authors:
+    - brandonyfeng*
+    - mingyang*
+    - metzler
+  pdf: https://ieeexplore.ieee.org/abstract/document/10012058
+
+- id: nsub
+  title: "Neural Subspaces for Light Fields"
+  venue: IEEE Transactions on Visualization and Computer Graphics, 2022
+  venue_url: https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=2945
+  description: "Further improved compression ability on light fields with implicit neural representations."
+  image: nsub.jpg
+  image_mouseover: nsub.mp4
+  authors:
+    - brandonyfeng
+    - varshney
+  pdf: https://ieeexplore.ieee.org/abstract/document/9968104
+
+- id: afbench
+  title: "Benchmarking AlphaFold for Protein Complex Modeling Reveals Accuracy Determinants"
+  venue: Protein Science 2022
+  venue_url: https://onlinelibrary.wiley.com/journal/1469896x
+  description: "Interesting findings from evaluating AlphaFold2 on protein-protein docking, highlighting areas for future development using deep learning methods."
+  image: protein.jpg
+  image_mouseover: protein.mp4
+  authors:
+    - ruiyin
+    - brandonyfeng
+    - varshney
+    - brianpierce
+  pdf: https://onlinelibrary.wiley.com/doi/full/10.1002/pro.4379
+
+- id: signet
+  title: "SIGNET: Efficient Neural Representations for Light Fields"
+  venue: International Conference on Computer Vision (ICCV) 2021
+  venue_url: https://iccv2021.thecvf.com/home
+  description: "Remarkable compression rates by representing light fields as neural network weights. Simple and compact formulation also supports angular interpolation to generate novel viewpoints."
+  project_page: "https://augmentariumlab.github.io/SIGNET"
+  github: AugmentariumLab/SIGNET
+  image: signet.png
+  image_mouseover: signet.mp4
+  authors:
+    - brandonyfeng
+    - varshney
+  award: "Oral Presentation (Top 3%)"
+  pdf: https://openaccess.thecvf.com/content/ICCV2021/html/Feng_SIGNET_Efficient_Neural_Representation_for_Light_Fields_ICCV_2021_paper.html
+
+
+- id: gazechat
+  title: "GazeChat: Enhancing Virtual Conferences with Gaze-aware 3D Photos"
+  venue:  ACM Symposium on User Interface Software and Technology (UIST) 2021
+  venue_url: https://uist.acm.org/uist2021
+  description: "Visualizing \"who's looking at who\" from static profile images as people always turn off their videos. Synthesized eye gazes are obtained by leveraging a general-purpose neural network."
+  image: GazeChat.jpg
+  image_mouseover: GazeChat.mp4
+  authors:
+    - zhenyi
+    - keru
+    - brandonyfeng
+    - ruofei
+    - kenperlin
+  project_page: https://ruofeidu.com/projects/gazechat/
+  pdf: https://dl.acm.org/doi/10.1145/3472749.3474785
+  github: snowymo/GazeChat-Enhancing-Virtual-Conferences-with-Gaze-aware-3D-Photos
+
+- id: depth360
+  title: "Deep Depth Estimation on 360-Degree Images with a Double Quaternion Loss"
+  venue: International Conference on 3D Vision (3DV) 2020
+  venue_url: http://3dv2020.dgcv.nii.ac.jp/
+  description: "Training neural networks for 360&deg monocular depth and normal estimation. Proposed a novel approach of combining depth and normal as a double quaternion during loss computation."
+  image: 2020Deep.png
+  image_mouseover: 2020Deep2.mp4
+  authors:
+    - brandonyfeng
+    - wyao
+    - zliu
+    - varshney
+  pdf: https://ieeexplore.ieee.org/document/9320332
+
+
+- id: mriseg
+  title: "A Self-Adaptive Network for Multiple Sclerosis Lesion Segmentation from Multi-Contrast MRI with Various Imaging Sequences"
+  venue: IEEE International Symposium on Biomedical Imaging (ISBI) 2019
+  venue_url: https://biomedicalimaging.org/2019/
+  description: "Neural networks with multimodal input disproportionately rely on certain modality while ignoring the rest. Developed a new strategy to overcome such bias and adapt to missing modalities."
+  image: MRI1.png
+  image_mouseover: MRI2.mp4
+  authors:
+    - brandonyfeng
+    - hpan
+    - cmeyer
+    - xfeng
+  pdf: https://ieeexplore.ieee.org/document/8759522
