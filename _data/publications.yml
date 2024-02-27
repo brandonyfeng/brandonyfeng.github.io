@@ -16,7 +16,6 @@
   pdf: https://www.science.org/doi/10.1126/sciadv.adg4671
   award: "Science.org Headline"
   award_url: https://web.archive.org/web/20230628185405/https://www.science.org/
-  acceptance_rate: "10.4% acceptance rate"
   github: Intelligent-Sensing/NeuWS
 
 - id: fpminr
@@ -36,7 +35,6 @@
     - changhueiy
   pdf: https://opg.optica.org/abstract.cfm?uri=optica-10-12-1679
   project_page: https://hwzhou2020.github.io/FPM-INR-Web/
-  acceptance_rate: "11.8% acceptance rate"
   github: hwzhou2020/FPM_INR
 
 - id: motionmag
@@ -55,6 +53,22 @@
   project_page: https://3d-motion-magnification.github.io/
   pdf: https://arxiv.org/abs/2308.03757
   github: 3d-motion-magnification/3d-motion-mag
+
+- id: worldineye
+  title: "Seeing the World Through Your Eyes"
+  venue: IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) 2024
+  venue_url: https://cvpr.thecvf.com/
+  description: "The only true voyage of discovery would be not to visit strange lands, but to possess other eyes, to behold the universe through the eyes of another."
+  image: worldineye.jpg
+  image_mouseover: worldineye.mp4
+  authors:
+    - hadi*
+    - kevinzhang*
+    - brandonyfeng
+    - metzler
+    - jbhuang
+  project_page: https://world-from-eyes.github.io/
+  pdf: https://arxiv.org/abs/2306.09348/
 
 - id: viinter
   title: "VIINTER: View Interpolation with Implicit Neural Representations of Images"
