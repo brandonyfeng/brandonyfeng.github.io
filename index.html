@@ -76,7 +76,6 @@ layout: null
     <div class="container is-max-desktop">
 
       <h2 class="title is-3">Select Publications</h2>
-
       {% for publication in site.data.publications %}
       <div class="publication-block columns">
 
@@ -124,10 +123,10 @@ layout: null
             </div>
             <div class="publication-venue">
               <a href="{{ publication.venue_url }}">{{ publication.venue }}</a>
-              <span class="publication-acc-rate">{{ publication.acceptance_rate }}</span>
               <span class="publication-venue-emph">
                 <a href="{{ publication.award_url }}" style="color: firebrick;">{{ publication.award }}</a>
               </span>
+              <span class="publication-acc-rate">{{ publication.acceptance_rate }}</span>
             </div>
             <p class="publication-description">{{ publication.description }}</p>
             <!-- Publication Links. -->

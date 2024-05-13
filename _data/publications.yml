@@ -1,6 +1,6 @@
 - id: neuws
   title: "NeuWS: Neural Wavefront Shaping for Guidestar-Free Imaging Through Static and Dynamic Scattering Media"
-  venue: Science Advances, 2023
+  venue: Science Advances 2023
   venue_url: https://www.science.org/journal/sciadv
   description: "Neural signal representations enable breakthroughs in correcting for severe time-varying wavefront aberrations caused by scattering media."
   image: neuws.jpg
@@ -18,9 +18,26 @@
   award_url: https://web.archive.org/web/20230628185405/https://www.science.org/
   github: Intelligent-Sensing/NeuWS
 
+- id: motionmag
+  title: "3D Motion Magnification: Visualizing Subtle Motions with Time-Varying Neural Fields"
+  venue: ICCV 2023
+  venue_url: https://iccv2023.thecvf.com/
+  description: "3D motion magnification allows us to magnify subtle motions in seeamingly static scenes while supporting rendering from novel views."
+  image: momag.jpg
+  image_mouseover: momag.mp4
+  authors:
+    - brandonyfeng*
+    - hadi*
+    - mikirub
+    - billf
+    - jbhuang
+  project_page: https://3d-motion-magnification.github.io/
+  pdf: https://arxiv.org/abs/2308.03757
+  github: 3d-motion-magnification/3d-motion-mag
+
 - id: fpminr
   title: "FPM-INR: Fourier Ptychographic Microscopy Image Stack Reconstruction Using Implicit Neural Representations"
-  venue: Optica, 2023
+  venue: Optica 2023
   venue_url: https://opg.optica.org/optica/journal-report.cfm
   description: "Physics-based neural signal representations accelerate real-time 3D refocusing in Fourier ptychographic microscopy and overcome barriers to clinical diagnosis."
   image: fpminr.jpg
@@ -37,26 +54,9 @@
   project_page: https://hwzhou2020.github.io/FPM-INR-Web/
   github: hwzhou2020/FPM_INR
 
-- id: motionmag
-  title: "3D Motion Magnification: Visualizing Subtle Motions with Time-Varying Neural Fields"
-  venue: International Conference on Computer Vision (ICCV) 2023
-  venue_url: https://iccv2023.thecvf.com/
-  description: "3D motion magnification allows us to magnify subtle motions in seeamingly static scenes while supporting rendering from novel views."
-  image: momag.jpg
-  image_mouseover: momag.mp4
-  authors:
-    - brandonyfeng*
-    - hadi*
-    - mikirub
-    - billf
-    - jbhuang
-  project_page: https://3d-motion-magnification.github.io/
-  pdf: https://arxiv.org/abs/2308.03757
-  github: 3d-motion-magnification/3d-motion-mag
-
 - id: worldineye
   title: "Seeing the World Through Your Eyes"
-  venue: IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) 2024
+  venue: CVPR 2024
   venue_url: https://cvpr.thecvf.com/
   description: "The only true voyage of discovery would be not to visit strange lands, but to possess other eyes, to behold the universe through the eyes of another."
   image: worldineye.jpg
@@ -68,6 +68,8 @@
     - metzler
     - jbhuang
   project_page: https://world-from-eyes.github.io/
+  award: "Oral Presentation"
+  acceptance_rate: "Acc. Rate: 0.78%"
   pdf: https://arxiv.org/abs/2306.09348/
 
 - id: viinter
@@ -86,7 +88,7 @@
 
 - id: prif
   title: "PRIF: Primary Ray-based Implicit Function"
-  venue: European Conference on Computer Vision (ECCV) 2022
+  venue: ECCV 2022
   venue_url: https://eccv2022.ecva.net/
   description: "Efficient implicit 3D shape representation."
   project_page: "https://augmentariumlab.github.io/PRIF"
@@ -102,7 +104,7 @@
 
 - id: signet
   title: "SIGNET: Efficient Neural Representations for Light Fields"
-  venue: International Conference on Computer Vision (ICCV) 2021
+  venue: ICCV 2021
   venue_url: https://iccv2021.thecvf.com/home
   description: "Remarkable compression rates by representing light fields as neural network weights. Simple and compact formulation also supports angular interpolation to generate novel viewpoints."
   project_page: "https://augmentariumlab.github.io/SIGNET"
@@ -112,6 +114,7 @@
   authors:
     - brandonyfeng
     - varshney
-  award: "Oral Presentation (Top 3%)"
+  award: "Oral Presentation"
+  acceptance_rate: "Acc. Rate: 3.36%"
   pdf: https://openaccess.thecvf.com/content/ICCV2021/html/Feng_SIGNET_Efficient_Neural_Representation_for_Light_Fields_ICCV_2021_paper.html
 
