@@ -11,6 +11,34 @@ brandonyfeng*:
   website: https://brandonyfeng.github.io/
   is_me: true
 
+rodrigofc:
+  first_name: Rodrigo
+  middle_name: 
+  last_name: Ferrer-Chávez
+  website: https://rferrerc.github.io/
+  is_me: false
+
+aviadl:
+  first_name: Aviad
+  middle_name: 
+  last_name: Levis
+  website: https://www.aviadlevis.info/
+  is_me: false
+
+jasonwang:
+  first_name: Jason
+  middle_name: J.
+  last_name: Wang
+  website: https://jasonwang.space/#home
+  is_me: false
+
+klbouman:
+  first_name: Katherine
+  middle_name: L.
+  last_name: Bouman
+  website: http://users.cms.caltech.edu/~klbouman/index.html
+  is_me: false
+
 kevinzhang*:
   first_name: Kevin
   middle_name: 
