@@ -20,11 +20,13 @@
 
 
 description: >-
-  I am a Postdoctoral Associate at [MIT CSAIL](https://www.csail.mit.edu/), working with [Prof. William T. Freeman](http://billf.mit.edu/), and a Visiting Scientist at [Harvard-Smithsonian Center for Astrophysics](https://cfa.harvard.edu/), working with [Dr. Cecilia Garraffo](https://pweb.cfa.harvard.edu/people/cecilia-garraffo).<br>
-  I develop machine learning algorithms to extract information seemingly invisible and beyond human perception. By pushing the boundaries of computational imaging and computer vision, my work aims to uncover hidden knowledge and accelerate scientific progress by expanding human vision from intuitive to algorithmic.
-  <br> I completed my Ph.D. in Computer Science at the University of Maryland,
-  advised by [Prof. Amitabh Varshney](https://en.wikipedia.org/wiki/Amitabh_Varshney) and
-  closely working with [Prof. Christopher A. Metzler](http://www.cs.umd.edu/~metzler/) and [Prof. Jia-Bin Huang](https://jbhuang0604.github.io/).
+  I am a Postdoctoral Associate at [MIT CSAIL](https://www.csail.mit.edu/) working with [William T. Freeman](http://billf.mit.edu/) and a Visiting Scientist at the [Harvard-Smithsonian Center for Astrophysics](https://cfa.harvard.edu/). 
+  I completed my Ph.D. in Computer Science at the University of Maryland, where I was advised by [Amitabh Varshney](https://en.wikipedia.org/wiki/Amitabh_Varshney) and worked closely with [Christopher A. Metzler](http://www.cs.umd.edu/~metzler/) and [Jia-Bin Huang](https://jbhuang0604.github.io/).
+  <br> 
+  <br> 
+  My research develops AI as a "lens" to reveal hidden worlds embedded in physical phenomena.
+  My North Star is to build intelligent systems that, rather than merely mirroring human perception, process information guided by the underlying physics of light.
+  In doing so, I aim to expand the boundaries of scientific discovery and transform how we understand the physical world, both near and faraway.
 
 url: https://brandonyfeng.github.io
 name: Brandon Y. Feng
