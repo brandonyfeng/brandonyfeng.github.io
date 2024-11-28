@@ -38,7 +38,7 @@
   title: "3D Motion Magnification: Visualizing Subtle Motions with Time-Varying Neural Fields"
   venue: ICCV 2023
   venue_url: https://iccv2023.thecvf.com/
-  description: "3D motion magnification allows us to magnify subtle motions in seeamingly static scenes while supporting rendering from novel views."
+  description: "3D motion magnification allows us to magnify subtle motions in seemingly static scenes while supporting rendering from novel views."
   image: momag.jpg
   image_mouseover: momag.mp4
   authors:
