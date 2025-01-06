@@ -1,6 +1,6 @@
 - id: eddo
   title: "Exoplanet Imaging via Differentiable Rendering"
-  venue: IEEE TCI 2024
+  venue: IEEE TCI 2025
   venue_url: https://signalprocessingsociety.org/publications-resources/ieee-transactions-computational-imaging
   description: "Seeing new light from exoplanets."
   image: eddo.png
@@ -12,7 +12,9 @@
     - jasonwang
     - klbouman
     - billf
-  pdf: https://drive.google.com/file/d/1qc0rr_BluO2g_BAhpP9TRM6fVNKtzNCa/view?usp=sharing
+  pdf: http://arxiv.org/abs/2501.01912
+  github: brandonyfeng/EDDO
+  project_page: https://brandonyfeng.github.io/EDDO/
 
 - id: neuws
   title: "NeuWS: Neural Wavefront Shaping for Guidestar-Free Imaging Through Static and Dynamic Scattering Media"
