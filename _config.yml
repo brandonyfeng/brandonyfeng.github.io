@@ -18,15 +18,13 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-
+title: Brandon Y. Feng
 description: >-
-  I am a Postdoctoral Associate at [MIT CSAIL](https://www.csail.mit.edu/) working with [William T. Freeman](http://billf.mit.edu/) and a Visiting Scientist at the [Harvard-Smithsonian Center for Astrophysics](https://cfa.harvard.edu/). 
-  I completed my Ph.D. in Computer Science at the University of Maryland, where I was advised by [Amitabh Varshney](https://en.wikipedia.org/wiki/Amitabh_Varshney) and worked closely with [Christopher A. Metzler](http://www.cs.umd.edu/~metzler/) and [Jia-Bin Huang](https://jbhuang0604.github.io/).
+  I am an incoming Assistant Professor of Computer Science at [UT Austin](https://www.cs.utexas.edu/).
+  Prior to UT, I was a Postdoctoral Associate at [MIT CSAIL](https://www.csail.mit.edu/), working with [William T. Freeman](https://en.wikipedia.org/wiki/William_T._Freeman).
+  I did my PhD in Computer Science at the [University of Maryland](https://www.cs.umd.edu/), advised by [Amitabh Varshney](https://en.wikipedia.org/wiki/Amitabh_Varshney).
+  Before that, I was an undergrad at the [University of Virginia](https://www.virginia.edu/), majoring in Computer Science and Statistics.
   <br> 
-  <br> 
-  My research develops AI as a "lens" to reveal hidden worlds embedded in physical phenomena.
-  My North Star is to build intelligent systems that, rather than merely mirroring human perception, process information guided by the underlying physics of light.
-  In doing so, I aim to expand the boundaries of scientific discovery and transform how we understand the physical world, both near and faraway.
 
 url: https://brandonyfeng.github.io
 name: Brandon Y. Feng
