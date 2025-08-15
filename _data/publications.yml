@@ -1,0 +1,138 @@
+- id: eddo
+  title: "Exoplanet Imaging via Differentiable Rendering"
+  venue: IEEE TCI 2025
+  venue_url: https://signalprocessingsociety.org/publications-resources/ieee-transactions-computational-imaging
+  description: "Seeing new light from exoplanets."
+  image: eddo.png
+  image_mouseover: eddo.mp4
+  authors:
+    - brandonyfeng
+    - rodrigofc
+    - aviadl
+    - jasonwang
+    - klbouman
+    - billf
+  pdf: http://arxiv.org/abs/2501.01912
+  github: brandonyfeng/EDDO
+  project_page: https://brandonyfeng.github.io/EDDO/
+
+- id: neuws
+  title: "NeuWS: Neural Wavefront Shaping for Guidestar-Free Imaging Through Static and Dynamic Scattering Media"
+  venue: Science Advances 2023
+  venue_url: https://www.science.org/journal/sciadv
+  description: "Neural signal representations enable breakthroughs in correcting for severe time-varying wavefront aberrations caused by scattering media."
+  image: neuws.jpg
+  image_mouseover: neuws.mp4
+  authors:
+    - brandonyfeng*
+    - haiyunguo*
+    - mingyang
+    - vivekb
+    - manojs
+    - ashokv
+    - metzler
+  pdf: https://www.science.org/doi/10.1126/sciadv.adg4671
+  award: "Science.org Headline"
+  award_url: https://web.archive.org/web/20230628185405/https://www.science.org/
+  github: Intelligent-Sensing/NeuWS
+
+- id: motionmag
+  title: "3D Motion Magnification: Visualizing Subtle Motions with Time-Varying Neural Fields"
+  venue: ICCV 2023
+  venue_url: https://iccv2023.thecvf.com/
+  description: "3D motion magnification allows us to magnify subtle motions in seemingly static scenes while supporting rendering from novel views."
+  image: momag.jpg
+  image_mouseover: momag.mp4
+  authors:
+    - brandonyfeng*
+    - hadi*
+    - mikirub
+    - billf
+    - jbhuang
+  project_page: https://3d-motion-magnification.github.io/
+  pdf: https://arxiv.org/abs/2308.03757
+  github: 3d-motion-magnification/3d-motion-mag
+
+- id: fpminr
+  title: "FPM-INR: Fourier Ptychographic Microscopy Image Stack Reconstruction Using Implicit Neural Representations"
+  venue: Optica 2023
+  venue_url: https://opg.optica.org/optica/journal-report.cfm
+  description: "Physics-based neural signal representations accelerate real-time 3D refocusing in Fourier ptychographic microscopy and overcome barriers to clinical diagnosis."
+  image: fpminr.jpg
+  image_mouseover: fpminr.mp4
+  authors:
+    - haowenzhou*
+    - brandonyfeng*
+    - haiyunguo
+    - siyul
+    - mingshul
+    - metzler
+    - changhueiy
+  pdf: https://opg.optica.org/abstract.cfm?uri=optica-10-12-1679
+  project_page: https://hwzhou2020.github.io/FPM-INR-Web/
+  github: hwzhou2020/FPM_INR
+
+- id: worldineye
+  title: "Seeing the World Through Your Eyes"
+  venue: CVPR 2024
+  venue_url: https://cvpr.thecvf.com/
+  description: "The only true voyage of discovery would be not to visit strange lands, but to possess other eyes, to behold the universe through the eyes of another."
+  image: worldineye.jpg
+  image_mouseover: worldineye.mp4
+  authors:
+    - hadi*
+    - kevinzhang*
+    - brandonyfeng
+    - metzler
+    - jbhuang
+  project_page: https://world-from-eyes.github.io/
+  award: "Oral Presentation"
+  acceptance_rate: "Acc. Rate: 0.78%"
+  pdf: https://arxiv.org/abs/2306.09348/
+
+- id: viinter
+  title: "VIINTER: View Interpolation with Implicit Neural Representations of Images"
+  venue: SIGGRAPH Asia 2022
+  venue_url: https://sa2022.siggraph.org/en/
+  description: "View interpolation without 3D reconstruction or correspondence."
+  image: viinter.png
+  image_mouseover: viinter.mp4
+  authors:
+    - brandonyfeng
+    - susmija
+    - varshney
+  github: AugmentariumLab/VIINTER
+  pdf: https://dl.acm.org/doi/abs/10.1145/3550469.3555417
+
+- id: prif
+  title: "PRIF: Primary Ray-based Implicit Function"
+  venue: ECCV 2022
+  venue_url: https://eccv2022.ecva.net/
+  description: "Efficient implicit 3D shape representation."
+  project_page: "https://augmentariumlab.github.io/PRIF"
+  image: prif.png
+  image_mouseover: prif.mp4
+  authors:
+    - brandonyfeng
+    - yinda
+    - danhang
+    - ruofei
+    - varshney
+  pdf: http://arxiv.org/abs/2208.06143
+
+- id: signet
+  title: "SIGNET: Efficient Neural Representations for Light Fields"
+  venue: ICCV 2021
+  venue_url: https://iccv2021.thecvf.com/home
+  description: "Remarkable compression rates by representing light fields as neural network weights. Simple and compact formulation also supports angular interpolation to generate novel viewpoints."
+  project_page: "https://augmentariumlab.github.io/SIGNET"
+  github: AugmentariumLab/SIGNET
+  image: signet.png
+  image_mouseover: signet.mp4
+  authors:
+    - brandonyfeng
+    - varshney
+  award: "Oral Presentation"
+  acceptance_rate: "Acc. Rate: 3.36%"
+  pdf: https://openaccess.thecvf.com/content/ICCV2021/html/Feng_SIGNET_Efficient_Neural_Representation_for_Light_Fields_ICCV_2021_paper.html
+
